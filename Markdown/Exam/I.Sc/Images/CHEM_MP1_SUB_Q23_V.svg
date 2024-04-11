@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no" ?>
+<svg width="94px" height="32px" viewBox="0 0 94 32" style="background-color: #ffffffff"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 4516.08,2569.07 L 4516.08,2582.93 L 4269.67,2725.2 L 4263.67,2714.8 L 4516.08,2569.07 Z " />
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 4765.5,2713.07 L 4765.5,2720 L 4759.5,2723.46 L 4516.08,2582.93 L 4516.08,2569.07 L 4765.5,2713.07 Z " />
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 5014.91,2569.07 L 5014.91,2582.93 L 4771.5,2723.46 L 4765.5,2720 L 4765.5,2713.07 L 5014.91,2569.07 Z " />
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 5264.33,2713.07 L 5264.33,2726.93 L 5014.91,2582.93 L 5014.91,2569.07 L 5264.33,2713.07 Z " />
+    <text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 61.0763 11.2722)"
+        style="font:normal normal normal 200px 'Arial'">
+        COOH</text>
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 5425.1,2620.25 L 5431.1,2630.64 L 5264.33,2726.93 L 5264.33,2713.07 L 5425.1,2620.25 Z " />
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -211 -121)"
+        d="M 4771.5,3008 L 4759.5,3008 L 4759.5,2723.46 L 4765.5,2720 L 4771.5,2723.46 L 4771.5,3008 Z " />
+</svg>

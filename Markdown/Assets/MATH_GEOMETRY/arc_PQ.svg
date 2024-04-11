@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.8768854mm"
+   height="3.7739427mm"
+   viewBox="0 0 4.8768854 3.7739427"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="arc_PQ.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="17.396097"
+     inkscape:cx="19.027257"
+     inkscape:cy="10.203438"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.680304,-133.71808)">
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#231f20;stroke-width:0.352777;stroke-linecap:round;stroke-linejoin:round"
+       x="64.308228"
+       y="137.37914"
+       id="text236"><tspan
+         sodipodi:role="line"
+         id="tspan234"
+         style="font-size:3.52778px;stroke-width:0.352778"
+         x="64.308228"
+         y="137.37914">PQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.15407px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#231f20;stroke-width:0.415407;stroke-linecap:round;stroke-linejoin:round"
+       x="157.91043"
+       y="-53.066315"
+       id="text344"
+       transform="matrix(0,0.84923211,-1.1775344,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan342"
+         style="stroke-width:0.415408"
+         x="157.91043"
+         y="-53.066315">(</tspan></text>
+  </g>
+</svg>

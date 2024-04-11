@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25.697857mm"
+   height="23.088343mm"
+   viewBox="0 0 25.697858 23.088342"
+   version="1.1"
+   id="svg2689"
+   sodipodi:docname="EX_76_Q1_8.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2691"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.078437"
+     inkscape:cx="64.908752"
+     inkscape:cy="-93.190423"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2686" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-128.30461,-155.63188)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.207597;stroke-linecap:round;stroke-linejoin:round"
+       id="rect491"
+       width="17.928221"
+       height="19.316057"
+       x="199.3593"
+       y="170.51842"
+       transform="matrix(1,0,-0.37220344,0.92815117,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="144.85587"
+       y="157.89883"
+       id="text1521"><tspan
+         sodipodi:role="line"
+         id="tspan1519"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="144.85587"
+         y="157.89883">5 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="107.8661"
+       y="-198.07892"
+       id="text1525"
+       transform="rotate(109.48517)"
+       inkscape:transform-center-x="-0.15546556"
+       inkscape:transform-center-y="9.2569717"><tspan
+         sodipodi:role="line"
+         id="tspan1523"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="107.8661"
+         y="-198.07892">5 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="138.53261"
+       y="178.68848"
+       id="text1529"><tspan
+         sodipodi:role="line"
+         id="tspan1527"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="138.53261"
+         y="178.68848">5 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="-114.15575"
+       y="180.30234"
+       id="text1533"
+       inkscape:transform-center-x="6.2261717"
+       inkscape:transform-center-y="7.5138971"
+       transform="rotate(-70.39866)"><tspan
+         sodipodi:role="line"
+         id="tspan1531"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="-114.15575"
+         y="180.30234">5 cm</tspan></text>
+  </g>
+</svg>

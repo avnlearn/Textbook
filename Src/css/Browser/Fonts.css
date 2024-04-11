@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../Fonts/Noto Sans/NotoSans-Regular.otf");
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../Fonts/Noto Sans/NotoSans-Bold.otf");
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans Devanagari";
+  src: url("../../Fonts/Noto Sans Devanagari/Noto Sans Devanagari.otf");
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans Math";
+  src: url("../../Fonts/Noto Sans Math/NotoSansMath-Regular.otf");
+}
+
+@font-face {
+  font-family: "Noto Sans Symbols";
+  src: url("../../Fonts/Noto Sans Symbols/NotoSansSymbols-Regular.otf");
+}

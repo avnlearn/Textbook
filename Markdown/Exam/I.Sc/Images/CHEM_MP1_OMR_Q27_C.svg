@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no" ?>
+<svg width="58px" height="39px" viewBox="0 0 58 39" style="background-color: #ffffffff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 2 33.3333)" style="font:normal normal normal 200px 'Arial'" >
+CH</text>
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 16.4434 35.1667)" style="font:normal normal normal 150px 'Arial'" >
+3</text>
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 33.4892 35.1667)" style="font:normal normal normal 200px 'Arial'" >
+C</text>
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -232 -110)" d="M 5286.78,2827.89 L 5286.78,2839.89 L 5077,2839.89 L 5077,2827.89 L 5286.78,2827.89 Z " />
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 47.8892 35.1667)" style="font:normal normal normal 200px 'Arial'" >
+H</text>
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -232 -110)" d="M 5580.78,2827.89 L 5580.78,2839.89 L 5477.78,2839.89 L 5477.78,2827.89 L 5580.78,2827.89 Z " />
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 34.1108 10.4056)" style="font:normal normal normal 200px 'Arial'" >
+O</text>
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -232 -110)" d="M 5368.08,2442.28 L 5380.08,2442.28 L 5380.08,2626.67 L 5368.08,2626.67 L 5368.08,2442.28 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -232 -110)" d="M 5419.92,2442.28 L 5431.92,2442.28 L 5431.92,2626.67 L 5419.92,2626.67 L 5419.92,2442.28 Z " />
+</svg>

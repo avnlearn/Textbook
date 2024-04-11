@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="25.715776mm"
+   height="25.178268mm"
+   viewBox="0 0 25.715776 25.178268"
+   version="1.1"
+   id="svg1684"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="EX_76_Q1_3.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1686"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1568741"
+     inkscape:cx="25.9635"
+     inkscape:cy="22.254428"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1681" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-125.20509,-162.74337)">
+    <path
+       sodipodi:type="star"
+       style="fill:none;stroke:#000000;stroke-width:0.566929;stroke-linecap:round;stroke-linejoin:round"
+       id="path436"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="489.69553"
+       sodipodi:cy="435.70386"
+       sodipodi:r1="55.958389"
+       sodipodi:r2="28.158297"
+       sodipodi:arg1="0.54245627"
+       sodipodi:arg2="1.5821402"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 537.62071,464.59188 -48.2446,-0.73154 -48.66094,-1.09607 24.75583,-41.41528 25.2797,-41.59357 23.48877,42.14682 z"
+       inkscape:transform-center-y="-10.238867"
+       transform="matrix(0.26375134,-0.00398099,0.00398099,0.26375134,7.1983768,64.610813)"
+       inkscape:transform-center-x="-0.31396035" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="-94.55864"
+       y="197.32352"
+       id="text1425"
+       inkscape:transform-center-x="7.1767872"
+       inkscape:transform-center-y="7.1526698"
+       transform="rotate(-61.99354)"><tspan
+         sodipodi:role="line"
+         id="tspan1423"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="-94.55864"
+         y="197.32352">6 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="225.23199"
+       y="-46.317471"
+       id="text1429"
+       inkscape:transform-center-x="-6.143739"
+       inkscape:transform-center-y="6.0337569"
+       transform="rotate(61.902269)"><tspan
+         sodipodi:role="line"
+         id="tspan1427"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="225.23199"
+         y="-46.317471">6 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="138.1217"
+       y="187.88989"
+       id="text1433"><tspan
+         sodipodi:role="line"
+         id="tspan1431"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="138.1217"
+         y="187.88989">6 cm</tspan></text>
+  </g>
+</svg>

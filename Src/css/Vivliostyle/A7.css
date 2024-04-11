@@ -1,0 +1,36 @@
+@page {
+  size: a7;
+  margin: 3mm;
+  margin-bottom: 5mm;
+  @top-center {
+    content: none;
+  }
+  @bottom-center {
+    margin-bottom: 1.5mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    content: counter(page);
+  }
+  @bottom-right {
+    margin-bottom: 1.5mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    font-weight: bold;
+    content: "MVN";
+  }
+}
+
+@page :first {
+  margin-top: 5mm;
+  @top-center {
+    margin-top: 2mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    font-weight: bold;
+    content: "आधुनिक विद्या निकेतन ट्यूशन सेंटर";
+  }
+}
+
+header{
+  display: none;
+}

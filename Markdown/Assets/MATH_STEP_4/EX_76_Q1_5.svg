@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="34.995045mm"
+   height="22.102865mm"
+   viewBox="0 0 34.995044 22.102866"
+   version="1.1"
+   id="svg1684"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="EX_76_Q1_5.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1686"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5251403"
+     inkscape:cx="89.172124"
+     inkscape:cy="52.454191"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1681" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.389967,-114.90403)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       d="m 65.209645,125.38711 1.805475,9.22108 19.260925,-0.35191 12.008979,-19.25226 z"
+       id="path564" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="77.365051"
+       y="136.97514"
+       id="text1537"><tspan
+         sodipodi:role="line"
+         id="tspan1535"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="77.365051"
+         y="136.97514">7 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="54.288773"
+       y="-146.58386"
+       id="text1541"
+       inkscape:transform-center-x="2.1784399"
+       inkscape:transform-center-y="8.5302875"
+       transform="rotate(123.85183)"><tspan
+         sodipodi:role="line"
+         id="tspan1539"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="54.288773"
+         y="-146.58386">8 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="36.83799"
+       y="139.62724"
+       id="text1545"
+       inkscape:transform-center-x="9.8324877"
+       inkscape:transform-center-y="0.77427871"
+       transform="rotate(-18.868698)"><tspan
+         sodipodi:role="line"
+         id="tspan1543"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="36.83799"
+         y="139.62724">9 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="-141.21216"
+       y="35.954124"
+       id="text1549"
+       transform="rotate(-102.55667)"
+       inkscape:transform-center-x="0.33363604"
+       inkscape:transform-center-y="9.9289847"><tspan
+         sodipodi:role="line"
+         id="tspan1547"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="-141.21216"
+         y="35.954124">3 cm</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="28.011705mm"
+   height="32.344669mm"
+   viewBox="0 0 28.011706 32.344669"
+   version="1.1"
+   id="svg2689"
+   sodipodi:docname="EX_76_QA.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2691"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5251403"
+     inkscape:cx="45.24174"
+     inkscape:cy="137.36441"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2686" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-224.02257,-270.18244)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       d="m 226.86589,270.6851 -0.0944,21.86896 16.61859,9.87306 -0.27134,-14.02153 -6.88076,-10.87384 -9.41322,-7.24932 z"
+       id="path566" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="295.41635"
+       y="-243.60133"
+       id="text1647"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan1645"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="295.41635"
+         y="-243.60133">30 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="365.64926"
+       y="-64.357208"
+       id="text1651"
+       inkscape:transform-center-x="-6.4909327"
+       inkscape:transform-center-y="5.8113111"
+       transform="rotate(59.594336)"><tspan
+         sodipodi:role="line"
+         id="tspan1649"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="365.64926"
+         y="-64.357208">25 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="349.98373"
+       y="82.399498"
+       id="text1655"
+       inkscape:transform-center-x="-8.2580478"
+       inkscape:transform-center-y="2.4665576"
+       transform="rotate(36.44479)"><tspan
+         sodipodi:role="line"
+         id="tspan1653"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="349.98373"
+         y="82.399498">20 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="-281.61957"
+       y="226.28952"
+       id="text1659"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan1657"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="-281.61957"
+         y="226.28952">50 cm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round"
+       x="-356.25293"
+       y="-124.19662"
+       id="text1663"
+       transform="rotate(-147.3522)"
+       inkscape:transform-center-x="8.5731021"
+       inkscape:transform-center-y="-1.9436941"><tspan
+         sodipodi:role="line"
+         id="tspan1661"
+         style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2"
+         x="-356.25293"
+         y="-124.19662">40 cm</tspan></text>
+  </g>
+</svg>

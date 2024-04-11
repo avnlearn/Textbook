@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* @import url(Browser/Fonts.css); */
+@import url(Firefox-paper.css);
+/* @import url(Article.css); */
+@import url(Report.css);
+/* @import url(Browser/One-Side.css); */
+@import url(Browser/Two-Side.css);
+@import url(Mathematics_Generator.css);
+/* @import url(Gallery.css); */
+
+:root,
+html,
+body,
+th {
+  /* font-size: 8.6pt !important; */
+  font-size: 9pt !important;
+  line-height: 1.3 !important;
+}
+
+main {
+  display: none;
+}
+
+
+
+.none_list ul,
+.none ol {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.float {
+  float: right;
+  /* display: block; */
+  /* text-align: center; */
+  font-size: 9pt;
+  font-weight: normal;
+}
+
+.float_left {
+  float: left;
+}
+
+
+.Score,
+.Scores,
+.score,
+.scores {
+  /* float: right; */
+  text-align: right;
+  display: block;
+  /* font-style: italic; */
+  
+  /* font-weight: normal; */
+  font-weight: bold;
+}
+
+.Score,
+.Scores{
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 1mm;
+}
+
+img.float {
+  float: right;
+  margin-left: 0.8em;
+}
+
+strong,
+.strong {
+  font-weight: 550;
+  text-align: justify;
+}
+
+.hidden,
+[hidden] {
+  display: none;
+}
+
+table{
+  break-inside: auto;
+  page-break-inside: auto;
+}
+/* center {
+  text-align: justify;
+  text-align-last: center;
+  margin: 0;
+  padding: 0;
+} */
+
+/* List Process */
+
+@counter-style circled-decimal {
+  system: fixed;
+  symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ㉑ ㉒ ㉓ ㉔ ㉕ ㉖ ㉗ ㉘ ㉙ ㉚
+    ㉛ ㉜ ㉝ ㉞ ㉟ ㊱ ㊲ ㊳ ㊴ ㊵ ㊶ ㊷ ㊸ ㊹ ㊺ ㊻ ㊼ ㊽ ㊾ ㊿;
+  suffix: " ";
+}
+
+@counter-style circled-digit {
+  system: fixed;
+  symbols: ➀ ➁ ➂ ➃ ➄ ➅ ➆ ➇ ➈ ➉;
+  suffix: " ";
+}
+
+@counter-style extend-devangari {
+  system: extends;
+  symbols: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष ह क्ष
+    त्र ज्ञ अ आ इ ई ऋ ॠ ऌ ॡ उ ऊ ए ऐ ओ औ अं अः का कि की कु कू कृ के कै को कौ कं
+    कः खा खि खी खु खू खे खै खो खौ खं खः;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style extend-decimal {
+  system: extends decimal;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style extend-ualpha {
+  system: extends upper-alpha;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style extend-lalpha {
+  system: extends lower-alpha;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style extend-ualpha {
+  system: extends upper-alpha;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style extend-lroman {
+  system: extends lower-roman;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style omrsheet {
+  system: cyclic;
+  symbols: ◯;
+  suffix: " ";
+}
+
+@counter-style checkbox {
+  system: cyclic;
+  symbols: □;
+  suffix: " ";
+}
+
+[data-math],
+[data-align-math] {
+  text-align: left;
+  text-align-last: right;
+  word-wrap: break-word;
+}
+
+ol[type="1"] ol[type="1"] {
+  list-style-type: extend-decimal;
+  padding: 0;
+  margin: 0;
+}
+
+ol[type="1"] ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* ol[type="1"]{
+  list-style-type: decimal;
+} */
+
+ol[type="a"s] {
+  list-style-type: extend-lalpha;
+  /* list-style-type: extend-devangari; */
+}
+
+ol[type="A"s] {
+  list-style-type: extend-ualpha;
+}
+
+ol[type="i"s] {
+  list-style-type: extend-lroman;
+}
+
+ol[type="I"s] {
+  list-style-type: extend-devangari;
+}
+
+ol[type="क"s] {
+  list-style-type: extend-devangari;
+}
+
+/* .list_mark li::marker,
+li::marker,
+.li_mark li::marker {
+  font-weight: bold;
+} */

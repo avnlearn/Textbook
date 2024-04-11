@@ -1,0 +1,32 @@
+@page {
+  size: a5;
+
+  @top-center {
+    content: none;
+  }
+  @bottom-right {
+    margin-bottom: 1.5mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    font-weight: bold;
+    content: "MVN";
+  }
+  @bottom-left {
+    margin-bottom: 2mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    content: env(doc-title);
+  }
+}
+
+@page :first {
+  margin-top: 5.35mm;
+  @top-center {
+    margin-top: 1.8mm;
+    writing-mode: horizontal-tb;
+    /* font-size: 8pt; */
+    font-weight: bold;
+    content: "जयगुरुदेव नाम प्रभु का";
+    content: "आधुनिक विद्या निकेतन ट्यूशन सेंटर";
+  }
+}

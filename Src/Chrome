@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# shellcheck disable=SC2034
+SCRIPTDIR="$(dirname "$(realpath "$0")")"
+
+OUTPUT="$1"
+INPUT="$2"
+
+"$SCRIPTDIR/ungoogled-chromium_120.0.6099.224-1.1.AppImage" --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf="${OUTPUT}" "${INPUT}"

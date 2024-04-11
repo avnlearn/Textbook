@@ -1,0 +1,96 @@
+@media screen {
+  body {
+    width: 100%;
+    padding: 5mm;
+    background-color: gray;
+  }
+
+  section.paper,
+  div.paper {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
+    /* padding: 3mm 3mm 5mm; */
+    background-color: #fdfdfd;
+  }
+
+  .A4 {
+    /* 210mm */
+    width: 8.27in;
+    /* 297mm */
+    height: 11.69in;
+  }
+  .A4L {
+    width: 11.69in;
+    height: 8.27in;
+  }
+
+  .A4_3 {
+    width: 70mm;
+    height: 99mm;
+  }
+
+  .A5 {
+    /* 148mm */
+    width: 5.83in;
+    /* 210mm */
+    height: 8.27in;
+  }
+
+  .A6 {
+    /* 105mm */
+    width: 4.13in;
+    /* 148mm */
+    height: 5.83in;
+  }
+
+  .A7 {
+    /* 74mm */
+    width: 2.91in;
+    /* 105mm */
+    height: 4.13in;
+  }
+}
+
+@media print {
+  html {
+    color: #1a1a1a;
+    background-color: #fdfdfd;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  body {
+    /* border: 1px solid black; */
+    background-color: transparent;
+    color: black;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  div.paper,
+  section.paper {
+    box-shadow: none;
+    overflow: visible;
+    padding: 0 !important;
+    background-color: transparent;
+  }
+
+  .A4,
+  .A5 {
+    width: 100%;
+    height: 100%;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+  }
+}

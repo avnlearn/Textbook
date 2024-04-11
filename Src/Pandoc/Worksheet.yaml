@@ -1,0 +1,42 @@
+# lang: hi
+title-prefix: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"
+# reader: markdown+smart
+# reader: markdown+rebase_relative_paths
+# +short_subsuperscripts
+# reader: markdown_strict
+# reader: markdown_phpextra
+
+writer: html5
+template: Src/Pandoc/HTML/Report.html
+# standalone: true
+# ascii: true
+# self-contained: true
+# html-q-tags: true
+markdown-headings: atx
+# top-level-division: chapter
+# number-sections: true
+listings: true
+incremental: true
+# section-divs: true
+html-math-method:
+  # method: plain
+  method: mathjax
+  # method: webtex
+  # method: katex
+  # method: gladtex
+  # method: mathml
+strip-comments: true
+# AsciiDoc
+# writer: asciidoc
+highlight-style: null
+
+
+css: Assets/Src/css/Firefox.css
+
+metadata:
+  lang: en
+  # lang: hi
+  # lang: Deva
+  title: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"
+  main: "जयगुरुदेव नाम प्रभु का"
+  # simple: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"

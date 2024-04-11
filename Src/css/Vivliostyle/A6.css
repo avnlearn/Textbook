@@ -1,0 +1,32 @@
+@page {
+  size: a6;
+  margin: 3mm;
+  margin-bottom: 3.5mm;
+  @top-center {
+    content: none;
+  }
+  @bottom-right {
+    margin-bottom: 1.8mm;
+    writing-mode: horizontal-tb;
+    /* font-size: 8pt; */
+    content: "MVN";
+  }
+  
+  /* @bottom-left {
+    margin-bottom: 1.6mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    content: env(doc-title);
+  } */
+}
+
+@page :first {
+  margin-top: 5.35mm;
+  @top-center {
+    margin-top: 1.8mm;
+    writing-mode: horizontal-tb;
+    /* font-size: 8pt; */
+    font-weight: bold;
+    content: "जयगुरुदेव नाम प्रभु का";
+  }
+}

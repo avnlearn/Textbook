@@ -1,0 +1,7 @@
+filters:
+  # - Src/Pandoc/Filter/caps.py
+  # - Src/Pandoc/Filter/mhchem.lua
+  - Src/Pandoc/Filter/Random.lua
+  # - Src/Pandoc/Filter/lua-filters/diagram-generator/diagram-generator.lua
+#   - mhchem
+#   - pagebreak

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52mm"
+   height="37mm"
+   viewBox="0 0 52 37"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="CH4_Angles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.0752245"
+     inkscape:cx="156.24876"
+     inkscape:cy="103.56967"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow3"
+       markerWidth="4.2071066"
+       markerHeight="6.9999995"
+       viewBox="0 0 4.2071068 7"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:round"
+         d="M 3,-3 0,0 3,3"
+         id="arrow3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.371789,-10.989476)">
+    <g
+       id="g1151"
+       transform="translate(-2.8357982,-30.214437)">
+      <text
+         xml:space="preserve"
+         style="font-size:2.82223px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.25;stroke-linejoin:round"
+         x="49.773659"
+         y="76.265648"
+         id="text924"><tspan
+           sodipodi:role="line"
+           id="tspan922"
+           style="fill:#000000;stroke:none;stroke-width:0.25"
+           x="49.773659"
+           y="76.265648">कोण AOB = ∠AOB = ∠BOA  = θ</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82223px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.25;stroke-linejoin:round"
+         x="50.247581"
+         y="75.272736"
+         id="text1084"><tspan
+           sodipodi:role="line"
+           id="tspan1082"
+           style="fill:#000000;stroke:none;stroke-width:0.25"
+           x="50.247581"
+           y="75.272736" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.82223px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#b3b3b3;stroke:#000000;stroke-width:0.25;stroke-linejoin:round"
+         x="64.309113"
+         y="75.272736"
+         id="text1088"><tspan
+           sodipodi:role="line"
+           id="tspan1086"
+           style="fill:#000000;stroke:none;stroke-width:0.25"
+           x="64.309113"
+           y="75.272736" /></text>
+    </g>
+    <g
+       id="g10880"
+       transform="translate(1.4833362,-0.75061365)">
+      <path
+         id="path902"
+         style="fill:#b3b3b3;stroke:#000000;stroke-width:0.352778;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 34.792646,35.32203 a 7.8813314,7.8813314 0 0 0 -0.0057,-0.30231 7.8813314,7.8813314 0 0 0 -0.01757,-0.30127 7.8813314,7.8813314 0 0 0 -0.02894,-0.30024 7.8813314,7.8813314 0 0 0 -0.04031,-0.29921 7.8813314,7.8813314 0 0 0 -0.05168,-0.29765 7.8813314,7.8813314 0 0 0 -0.06304,-0.29507 7.8813314,7.8813314 0 0 0 -0.07441,-0.29301 7.8813314,7.8813314 0 0 0 -0.08578,-0.28939 7.8813314,7.8813314 0 0 0 -0.09663,-0.28628 7.8813314,7.8813314 0 0 0 -0.107487,-0.28216 7.8813314,7.8813314 0 0 0 -0.117822,-0.2775 7.8813314,7.8813314 0 0 0 -0.129192,-0.27337 7.8813314,7.8813314 0 0 0 -0.139009,-0.26768 7.8813314,7.8813314 0 0 0 -0.149345,-0.26252 7.8813314,7.8813314 0 0 0 -0.159163,-0.25631 7.8813314,7.8813314 0 0 0 -0.165365,-0.24547 l -8.368998,4.52944 z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.352778;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow3);marker-end:url(#Arrow3)"
+         d="M 70.127801,35.32203 H 24.992211 L 66.194031,13.10679"
+         id="path1054"
+         sodipodi:nodetypes="ccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:2.82222px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-opacity:1"
+         x="36.494328"
+         y="33.428505"
+         id="text8524"><tspan
+           sodipodi:role="line"
+           id="tspan8522"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Noto Sans Symbols';-inkscape-font-specification:'Noto Sans Symbols';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="36.494328"
+           y="33.428505">θ</tspan></text>
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.328351;stroke-linejoin:round;stroke-opacity:1"
+         id="path9507"
+         cx="60.797508"
+         cy="16.026505"
+         r="0.5" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.328351;stroke-linejoin:round;stroke-opacity:1"
+         id="circle9509"
+         cx="65.859093"
+         cy="35.27681"
+         r="0.5" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.328351;stroke-linejoin:round;stroke-opacity:1"
+         id="circle9511"
+         cx="25.218269"
+         cy="35.186729"
+         r="0.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-opacity:1"
+         x="60.444992"
+         y="15.142882"
+         id="text10967"><tspan
+           sodipodi:role="line"
+           id="tspan10965"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';stroke-width:0.5"
+           x="60.444992"
+           y="15.142882">A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-opacity:1"
+         x="65.852905"
+         y="38.164505"
+         id="text10971"><tspan
+           sodipodi:role="line"
+           id="tspan10969"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';stroke-width:0.5"
+           x="65.852905"
+           y="38.164505">B</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-opacity:1"
+         x="24.524805"
+         y="38.121971"
+         id="text10975"><tspan
+           sodipodi:role="line"
+           id="tspan10973"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:'Noto Sans Devanagari';-inkscape-font-specification:'Noto Sans Devanagari';stroke-width:0.5"
+           x="24.524805"
+           y="38.121971">O</tspan></text>
+    </g>
+  </g>
+</svg>

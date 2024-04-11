@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no" ?>
+<svg width="46px" height="14px" viewBox="0 0 46 14" style="background-color: #ffffffff"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 13.1225 10.8056)"
+        style="font:normal normal normal 200px 'Arial'">
+        COOH</text>
+    <path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -199 -136)"
+        d="M 4219.45,2860.67 L 4219.45,2872.67 L 4026.67,2872.67 L 4026.67,2860.67 L 4219.45,2860.67 Z " />
+</svg>

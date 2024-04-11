@@ -1,0 +1,82 @@
+<ul class="incremental" data-grid="6">
+
+- ![बैक्टीरिया](Assets/SCI_IX/Notes/Fig_7.1_a.png) बैक्टीरिया
+- ![एनाबीना](Assets/SCI_IX/Notes/Fig_7.1_b.svg) एनाबीना
+- ![पैरामीशियम](Assets/SCI_IX/Notes/Fig_7.2_a.svg) पैरामीशियम
+- ![अमीबा](Assets/SCI_IX/Notes/Fig_7.2_b.svg) अमीबा
+- ![युग्लीना](Assets/SCI_IX/Notes/Fig_7.2_c.svg) युग्लीना
+- ![सैक्रोमाइसीज़ (यीस्ट)](Assets/SCI_IX/Notes/Fig_7.3_a.png) सैक्रोमाइसीज़ (यीस्ट)
+- ![पेनिसीलियम](Assets/SCI_IX/Notes/Fig_7.3_b.png) पेनिसीलियम
+- ![एगेरिकस](Assets/SCI_IX/Notes/Fig_7.3_c.png) एगेरिकस
+- ![यूलोथ्रिक्स](Assets/SCI_IX/Notes/Fig_7.5_a.png) यूलोथ्रिक्स
+- ![क्लैडोफोरा](Assets/SCI_IX/Notes/Fig_7.5_b.png) क्लैडोफोरा
+- ![अल्वा](Assets/SCI_IX/Notes/Fig_7.5_c.png) अल्वा
+- ![स्पाइरोगाइरा](Assets/SCI_IX/Notes/Fig_7.5_d.svg) स्पाइरोगाइरा
+- ![कारा](Assets/SCI_IX/Notes/Fig_7.5_e.png) कारा
+- ![रिक्सिया](Assets/SCI_IX/Notes/Fig_7.6_a.png) रिक्सिया
+- ![मार्केंशिया](Assets/SCI_IX/Notes/Fig_7.6_b.png) मार्केंशिया
+- ![फ्यूनेरिया](Assets/SCI_IX/Notes/Fig_7.6_c.png) फ्यूनेरिया
+- ![मार्सीलिया](Assets/SCI_IX/Notes/Fig_7.7_a.svg) मार्सीलिया
+- ![फ़र्न](Assets/SCI_IX/Notes/Fig_7.7_b.png) फ़र्न
+- ![पाइनस](Assets/SCI_IX/Notes/Fig_7.8_a.png) पाइनस
+- ![पाइनस](Assets/SCI_IX/Notes/Fig_7.8_b.png) पाइनस
+- ![एकबीजपत्री](Assets/SCI_IX/Notes/Fig_7.9.png) एकबीजपत्री
+- ![द्विबीजपत्री](Assets/SCI_IX/Notes/Fig_7.10.png) द्विबीजपत्री
+- ![युप्लेक्टेला](Assets/SCI_IX/Notes/Fig_7.12_a.png) युप्लेक्टेला
+- ![साइकॉन](Assets/SCI_IX/Notes/Fig_7.12_b.png) साइकॉन
+- ![स्पांजिला](Assets/SCI_IX/Notes/Fig_7.12_c.png) स्पांजिला
+- ![हाइड्रा](Assets/SCI_IX/Notes/Fig_7.13_a.svg) हाइड्रा
+- ![समुद्री एनीमोन](Assets/SCI_IX/Notes/Fig_7.13_b.svg) समुद्री एनीमोन
+- ![प्लेनेरिया](Assets/SCI_IX/Notes/Fig_7.14_a.svg) प्लेनेरिया
+- ![लिवरफ्लूक](Assets/SCI_IX/Notes/Fig_7.14_b.svg) लिवरफ्लूक
+- ![टेपवर्म](Assets/SCI_IX/Notes/Fig_7.14_c.svg) टेपवर्म
+- ![एस्केरिस](Assets/SCI_IX/Notes/Fig_7.15_a.svg) एस्केरिस
+- ![वुचेरेरिया](Assets/SCI_IX/Notes/Fig_7.15_b.png) वुचेरेरिया
+- ![नेरीस](Assets/SCI_IX/Notes/Fig_7.16_a.svg) नेरीस
+- ![केंचुआ](Assets/SCI_IX/Notes/Fig_7.16_b.svg) केंचुआ
+- ![जोंक](Assets/SCI_IX/Notes/Fig_7.16_c.png) जोंक
+- ![पैलिमॉन (झींगा)](Assets/SCI_IX/Notes/Fig_7.17_a.png) पैलिमॉन (झींगा)
+- ![पैलेम्नियस (बिच्छू)](Assets/SCI_IX/Notes/Fig_7.17_b.png) पैलेम्नियस (बिच्छू)
+- ![एरेनिया (मकड़ी)](Assets/SCI_IX/Notes/Fig_7.17_c.png) एरेनिया (मकड़ी)
+- ![पेरिप्लेनीटा (तिलचट्टा)](Assets/SCI_IX/Notes/Fig_7.17_d.png) पेरिप्लेनीटा (तिलचट्टा)
+- ![मस्का (घरेलू मक्खी)](Assets/SCI_IX/Notes/Fig_7.17_e.png) मस्का (घरेलू मक्खी)
+- ![तितला](Assets/SCI_IX/Notes/Fig_7.17_f.png) तितला
+- ![स्कोलोपेंड्रा (शतपाद)](Assets/SCI_IX/Notes/Fig_7.17_g.png) स्कोलोपेंड्रा (शतपाद)
+- ![काइटॉन](Assets/SCI_IX/Notes/Fig_7.18_a.png) काइटॉन
+- ![ऑक्टोपस](Assets/SCI_IX/Notes/Fig_7.18_b.png) ऑक्टोपस
+- ![घोंघा](Assets/SCI_IX/Notes/Fig_7.18_c.png) घोंघा
+- ![यूनियो](Assets/SCI_IX/Notes/Fig_7.18_d.png) यूनियो
+- ![एंटेडॉन (पंखतारा)](Assets/SCI_IX/Notes/Fig_7.19_a.png) एंटेडॉन (पंखतारा)
+- ![होलोथूरिया (समुद्री खीरा)](Assets/SCI_IX/Notes/Fig_7.19_b.png) होलोथूरिया (समुद्री खीरा)
+- ![इकाइनॉस (समुद्री अर्चिन)](Assets/SCI_IX/Notes/Fig_7.19_c.png) इकाइनॉस (समुद्री अर्चिन)
+- ![ऐस्टीरिऐस (तारा मछली)](Assets/SCI_IX/Notes/Fig_7.19_d.png) ऐस्टीरिऐस (तारा मछली)
+- ![एक प्रोटोकॉर्डेट (बैलैनाग्लोसस)](Assets/SCI_IX/Notes/Fig_7.20.svg) एक प्रोटोकॉर्डेट (बैलैनाग्लोसस)
+- ![जबड़ा रहित कशेरुकी-पेट्रोमाइजॉन](Assets/SCI_IX/Notes/Fig_7.21.png) जबड़ा रहित कशेरुकी-पेट्रोमाइजॉन
+- ![सिनकिरोपस स्प्लेंडिडस (मैन्डारिन फिश)](Assets/SCI_IX/Notes/Fig_7.22_a.png) सिनकिरोपस स्प्लेंडिडस (मैन्डारिन फिश)
+- ![टेरोइस वोलिटंस (लॉयर फिश)](Assets/SCI_IX/Notes/Fig_7.22_b.png) टेरोइस वोलिटंस (लॉयर फिश)
+- ![कालोफाइरीन जोरडानी (ऐंग्लर फिश)](Assets/SCI_IX/Notes/Fig_7.22_c.png) कालोफाइरीन जोरडानी (ऐंग्लर फिश)
+- ![स्टिंग-रे (दंश-रे)](Assets/SCI_IX/Notes/Fig_7.22_d.png) स्टिंग-रे (दंश-रे)
+- ![विधुत-रे (तॉरपीडो)](Assets/SCI_IX/Notes/Fig_7.22_e.svg) विधुत-रे (तॉरपीडो)
+- ![स्कॉलियोडॉन (डॉग फिश)](Assets/SCI_IX/Notes/Fig_7.22_f.svg) स्कॉलियोडॉन (डॉग फिश)
+- ![लेबियो रोहिता](Assets/SCI_IX/Notes/Fig_7.22_g.svg) लेबियो रोहिता
+- ![नर हिप्पोकैम्पस (दरियाई घोड़ा)](Assets/SCI_IX/Notes/Fig_7.22_h.svg) नर हिप्पोकैम्पस (दरियाई घोड़ा)
+- ![एक्सोसीटस (उड़न मछली)](Assets/SCI_IX/Notes/Fig_7.22_i.svg) एक्सोसीटस (उड़न मछली)
+- ![एनाबास (क्लाइंबिंग पर्च)](Assets/SCI_IX/Notes/Fig_7.22_j.png) एनाबास (क्लाइंबिंग पर्च)
+- ![सैलामेंडर](Assets/SCI_IX/Notes/Fig_7.23_a.png) सैलामेंडर
+- ![टोड](Assets/SCI_IX/Notes/Fig_7.23_b.png) टोड
+- ![राना टिग्रिना (साधारण मेंढक)](Assets/SCI_IX/Notes/Fig_7.23_c.png) राना टिग्रिना (साधारण मेंढक)
+- ![हाइला (वृक्ष मेंढक)](Assets/SCI_IX/Notes/Fig_7.23_d.png) हाइला (वृक्ष मेंढक)
+- ![टर्टल](Assets/SCI_IX/Notes/Fig_7.24_a.png) टर्टल
+- ![कैमेलियॉन](Assets/SCI_IX/Notes/Fig_7.24_b.png) कैमेलियॉन
+- ![किंग कोबरा](Assets/SCI_IX/Notes/Fig_7.24_c.png) किंग कोबरा
+- ![उड़न छिपकली (ड्रैको)](Assets/SCI_IX/Notes/Fig_7.24_d.png) उड़न छिपकली (ड्रैको)
+- ![घरेलू छिपकली (हेमिडैक्टाइलस)](Assets/SCI_IX/Notes/Fig_7.24_e.png) घरेलू छिपकली (हेमिडैक्टाइलस)
+- ![सफेद स्टोर्क (सिकोनिया सिकोनिया)](Assets/SCI_IX/Notes/Fig_7.25_a.png) सफेद स्टोर्क (सिकोनिया सिकोनिया)
+- ![ऑस्ट्रिच (स्ट्ररुथियो कैमेलस)](Assets/SCI_IX/Notes/Fig_7.25_b.png) ऑस्ट्रिच (स्ट्ररुथियो कैमेलस)
+- ![नर गुच्छेदार बत्तख (आयशिया फ्युलिगुला)](Assets/SCI_IX/Notes/Fig_7.25_c.png) नर गुच्छेदार बत्तख (आयशिया फ्युलिगुला)
+- ![कबूतर](Assets/SCI_IX/Notes/Fig_7.25_d.png) कबूतर
+- ![गौरैंवा](Assets/SCI_IX/Notes/Fig_7.25_e.png) गौरैंवा
+- ![कौआ](Assets/SCI_IX/Notes/Fig_7.25_f.png) कौआ
+- ![कुल स्तनपायी](Assets/SCI_IX/Notes/Fig_7.26.png) कुल स्तनपायी
+
+

@@ -1,0 +1,19 @@
+@page {
+  size: a7;
+  margin: 3mm;
+}
+
+@page :first {
+  margin-top: 5.5mm;
+  @top-center {
+    margin-top: 2mm;
+    writing-mode: horizontal-tb;
+    font-size: 8pt;
+    font-weight: bold;
+    content: "आधुनिक विद्या निकेतन ट्यूशन सेंटर";
+  }
+}
+
+header {
+  display: none;
+}

@@ -1,0 +1,43 @@
+title-prefix: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"
+# reader: markdown+rebase_relative_paths
+# +short_subsuperscripts
+# reader: markdown_strict
+# reader: markdown_phpextra
+
+writer: html5
+template: Src/Pandoc/HTML/Report.html
+# standalone: true
+# ascii: true
+# self-contained: true
+# html-q-tags: true
+markdown-headings: atx
+# top-level-division: chapter
+# number-sections: true
+listings: true
+incremental: true
+# section-divs: true
+html-math-method:
+  # method: plain
+  method: mathjax
+  # method: webtex
+  # method: katex
+  # method: gladtex
+  # method: mathml
+
+strip-comments: true
+# AsciiDoc
+# writer: asciidoc
+highlight-style: null
+filters:
+  # - Src/Pandoc/Filter/caps.py
+  # - Src/Pandoc/Filter/mhchem.lua
+  - Src/Pandoc/Filter/Random.lua
+#   - mhchem
+#   - pagebreak
+
+css: Assets/Src/css/Vivliostyle.css
+
+metadata:
+  lang: en
+  # lang: hi
+  title: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"

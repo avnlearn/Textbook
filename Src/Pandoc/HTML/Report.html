@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    $for(author-meta)$
+    <meta name="author" content="$author-meta$" />
+    $endfor$ $if(date-meta)$
+    <meta name="dcterms.date" content="$date-meta$" />
+    $endif$ $if(keywords)$
+    <meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+    $endif$ $if(description-meta)$
+    <meta name="description" content="$description-meta$" />
+    $endif$
+    <title>$if(pagetitle)$$pagetitle$$endif$</title>
+    $if(css)$ $for(css)$
+    <link rel="stylesheet" href="$css$" />
+    $endfor$ $else$
+    <style>
+      $styles.html()$
+    </style>
+    $endif$ $if(math)$ $if(main)$ $if(mathjax)$
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    $endif$ $math$ $else$
+    <script
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+    $endif$ $endif$
+  </head>
+
+  <body>
+    $if(simple)$ $body$ $else$ $if(main)$
+    <div class="paper A5 figcaption tens Answer">
+      <article cols="2">
+        <main>$main$</main>
+        $if(title)$
+        <header>$title$</header>
+        $endif$ $body$
+      </article>
+    </div>
+    $else$
+    <article class="figcaption">
+      $if(title)$
+      <header>$title$</header>
+      $endif$ $body$
+    </article>
+    $endif$ $endif$
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no" ?>
+<svg width="55px" height="54px" viewBox="0 0 55 54" style="background-color: #ffffffff" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" >
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6100,5581.59 L 6100,5567.74 L 6343.42,5427.2 L 6355.42,5434.13 L 6100,5581.59 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 5844.58,5434.13 L 5856.58,5427.2 L 6100,5567.74 L 6100,5581.59 L 5844.58,5434.13 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 5844.58,5139.2 L 5856.58,5146.13 L 5856.58,5427.2 L 5844.58,5434.13 L 5844.58,5139.2 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6094,4995.2 L 6100,4998.67 L 6100,5005.59 L 5856.58,5146.13 L 5844.58,5139.2 L 6094,4995.2 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6348.43,5135.17 L 6349.42,5142.67 L 6343.42,5146.13 L 6100,5005.59 L 6100,4998.67 L 6106,4995.2 L 6348.43,5135.17 Z " />
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6343.42,5146.13 L 6349.42,5142.67 L 6355.42,5145.15 L 6355.42,5434.13 L 6343.42,5427.2 L 6343.42,5146.13 Z " />
+<path stroke="#000000" stroke-width="12" fill="transparent" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 5919.7,5286.67 A 180.295,180.295 0 1 0 6280.3,5286.67A 180.295,180.295 0 1 0 5919.7,5286.67Z " />
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 11.3892 11.0056)" style="font:normal normal normal 200px 'Arial'" >
+CH</text>
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 25.8325 12.8389)" style="font:normal normal normal 150px 'Arial'" >
+2</text>
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 30.0037 11.0056)" style="font:normal normal normal 200px 'Arial'" >
+CHO</text>
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6094,4814.28 L 6106,4814.28 L 6106,4995.2 L 6100,4998.67 L 6094,4995.2 L 6094,4814.28 Z " />
+<text x="0" y="0" stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 34.0423 22.4232)" style="font:normal normal normal 200px 'Arial'" >
+Cl</text>
+<path stroke="transparent" fill="#000000" transform="matrix(0.05 0 0 0.05 -290 -228)" d="M 6477.19,5006.4 L 6485.68,5014.89 L 6355.42,5145.15 L 6349.42,5142.67 L 6348.43,5135.17 L 6477.19,5006.4 Z " />
+</svg>

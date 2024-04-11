@@ -1,0 +1,52 @@
+title-prefix: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"
+# reader: markdown+smart
+reader: markdown+mark
+# reader: markdown+rebase_relative_paths
+# +short_subsuperscripts
+# reader: markdown_strict
+# reader: markdown_phpextra
+
+writer: html5
+template: Src/Pandoc/HTML/Report.html
+# standalone: true
+# ascii: true
+self-contained: true
+# html-q-tags: true
+markdown-headings: atx
+# list-tables: true
+# top-level-division: chapter
+# number-sections: true
+listings: true
+incremental: true
+# section-divs: true
+html-math-method:
+  # method: plain
+  method: mathjax
+  # method: webtex
+  # method: katex
+  # method: gladtex
+  # method: mathml
+strip-comments: true
+file-scope: true
+# AsciiDoc
+# writer: asciidoc
+highlight-style: null
+filters:
+  - Src/Pandoc/Filter/lua-filters/diagram-generator/diagram-generator.lua
+  # - Src/Pandoc/Filter/caps.py
+  # - Src/Pandoc/Filter/mhchem.lua
+  # - Src/Pandoc/Filter/Random.lua
+#   - mhchem
+#   - pagebreak
+extract-media: Dist/Images
+# resource-path: [".","Markdown/Assets"]
+# css: Assets/Src/css/Article.css
+
+metadata:
+  lang: en
+  # lang: hi
+  title: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"
+  main: "जयगुरुदेव नाम प्रभु का"
+  plantuml_path : /usr/share/java/plantuml/plantuml.jar
+  # java_path:
+  # simple: "आधुनिक विद्या निकेतन ट्यूशन सेंटर"

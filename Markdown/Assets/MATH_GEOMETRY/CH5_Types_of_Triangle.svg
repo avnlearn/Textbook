@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="148mm"
+   height="105mm"
+   viewBox="0 0 148 105"
+   version="1.1"
+   id="svg1361"
+   sodipodi:docname="Types_of_Triangle.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1363"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.4912879"
+     inkscape:cx="109.63678"
+     inkscape:cy="218.26771"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1358" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(49.613989,-70.487247)">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.82222px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="24.30699"
+       y="73.54512"
+       id="text2506"><tspan
+         sodipodi:role="line"
+         id="tspan2504"
+         style="font-size:2.82222px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+         x="24.30699"
+         y="73.54512">भुजाओं की लंबाइयों के आधार पर त्रिभुजों का नामकरण</tspan></text>
+    <g
+       id="g5614"
+       transform="matrix(0.30970647,0,0,0.30970647,-18.119079,48.795451)">
+      <g
+         id="g3942"
+         transform="translate(-27.731539,4.5027414)">
+        <path
+           id="path2350"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round"
+           inkscape:transform-center-x="1.2203202e-06"
+           inkscape:transform-center-y="-11.477092"
+           d="M 39.757803,162.56201 H -39.757811 L -2e-6,93.699464 Z"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -26.00542,128.74217 8.660254,5"
+           id="path2352" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 17.812833,134.5522 8.66026,-5"
+           id="path2354" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -0.1115943,157.562 v 10.00001"
+           id="path2356" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="0.00017392219"
+           y="92.26693"
+           id="text3706"><tspan
+             sodipodi:role="line"
+             id="tspan3704"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="0.00017384095"
+             y="92.26693">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="40.027977"
+           y="169.27223"
+           id="text3716"><tspan
+             sodipodi:role="line"
+             id="tspan3714"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="40.027977"
+             y="169.27223">B</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="-40.215248"
+           y="169.22122"
+           id="text3720"><tspan
+             sodipodi:role="line"
+             id="tspan3718"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="-40.215248"
+             y="169.22122">C</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="-26.531136"
+         y="182.46387"
+         id="text2510"><tspan
+           sodipodi:role="line"
+           id="tspan2508"
+           style="font-size:6.83443px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="-26.531136"
+           y="182.46387">समबाहु त्रिभुज (Equilateral triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="-26.531136"
+           y="191.08798"
+           id="tspan2536">प्रत्येक कोण न्यून कोण</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="-26.531136"
+           y="199.63101"
+           id="tspan5209">AB = BC = AC</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="-26.531134"
+           y="208.25513"
+           id="tspan5335">∠A = ∠B = ∠C = 60</tspan></text>
+    </g>
+    <g
+       id="g5596"
+       transform="matrix(0.30970647,0,0,0.30970647,-8.0383044,48.666722)">
+      <g
+         id="g3974"
+         transform="translate(3.7942031,1.7129807)">
+        <path
+           id="path1899"
+           style="fill:none;stroke:#000000;stroke-width:0.500474;stroke-linejoin:round;stroke-dasharray:none"
+           inkscape:transform-center-x="2.8092558e-06"
+           inkscape:transform-center-y="-11.489074"
+           d="M 125.9784,164.97296 H 67.747423 L 96.862915,96.038518 Z"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 74.515792,136.19593 8.660254,5"
+           id="path2319" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 110.8919,142.00595 8.66026,-5"
+           id="path2321" />
+        <g
+           id="g2329"
+           transform="translate(-0.67881684)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 96.862915,159.97295 v 10.00001"
+             id="path2323" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 98.220548,159.97295 v 10.00001"
+             id="path2325" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="96.863136"
+           y="94.596222"
+           id="text3724"><tspan
+             sodipodi:role="line"
+             id="tspan3722"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="96.863136"
+             y="94.596222">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="67.619621"
+           y="170.87688"
+           id="text3760"><tspan
+             sodipodi:role="line"
+             id="tspan3758"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="67.619621"
+             y="170.87688">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="126.18337"
+           y="170.83243"
+           id="text3764"><tspan
+             sodipodi:role="line"
+             id="tspan3762"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="126.18337"
+             y="170.83243">B</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="100.8698"
+         y="183.75563"
+         id="text2514"><tspan
+           sodipodi:role="line"
+           id="tspan2512"
+           style="font-size:6.83443px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="100.8698"
+           y="183.75563">समद्विबाहु त्रिभुज (Isosceles triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="100.8698"
+           y="192.37975"
+           id="tspan5213">2 भुजाओं की लंबाइयाँ बराबर</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="100.8698"
+           y="200.92278"
+           id="tspan5211">AC = AB ≠ BC</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="100.8698"
+           y="209.54689"
+           id="tspan5337">∠C = ∠B ≠ ∠A</tspan></text>
+    </g>
+    <g
+       id="g5576"
+       transform="matrix(0.30970647,0,0,0.30970647,12.886514,48.65226)">
+      <g
+         id="g4009"
+         transform="translate(13.176695,3.5206284)">
+        <path
+           id="path1901"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none"
+           inkscape:transform-center-x="-1.1930862e-06"
+           inkscape:transform-center-y="-11.017046"
+           d="M 191.34367,163.49882 H 138.68282 L 218.36734,94.616217 Z"
+           sodipodi:nodetypes="cccc" />
+        <g
+           id="g2335"
+           transform="translate(69.85332,-1.474135)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 96.862915,159.97295 v 10.00001"
+             id="path2331" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 98.220548,159.97295 v 10.00001"
+             id="path2333" />
+        </g>
+        <g
+           id="g2346"
+           transform="translate(0.59625558,0.18144268)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 166.24648,133.42851 8.66025,5"
+             id="path2337" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 167.1205,131.9761 8.66025,5"
+             id="path2339" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="m 167.94116,130.5237 8.66025,5"
+             id="path2341" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.546074;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 195.50474,141.87587 9.65926,-2.58818"
+           id="path2348" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="218.26276"
+           y="92.881966"
+           id="text3728"><tspan
+             sodipodi:role="line"
+             id="tspan3726"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="218.26276"
+             y="92.881966">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="139.17877"
+           y="169.35567"
+           id="text3756"><tspan
+             sodipodi:role="line"
+             id="tspan3754"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="139.17877"
+             y="169.35567">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="191.60931"
+           y="169.35814"
+           id="text3768"><tspan
+             sodipodi:role="line"
+             id="tspan3766"
+             style="font-size:6.83443px;stroke-width:0.5"
+             x="191.60931"
+             y="169.35814">B</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="192.15305"
+         y="183.75563"
+         id="text2518"><tspan
+           sodipodi:role="line"
+           id="tspan2516"
+           style="font-size:6.83443px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="192.15305"
+           y="183.75563">विषमबाहु त्रिभुज ((Scalene triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="192.15305"
+           y="192.37975"
+           id="tspan5215">3 भुजाएँ असमान लंबाइयों वाली</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="192.15305"
+           y="200.92278"
+           id="tspan5217">AB ≠ BC ≠ AC</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.83443px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="192.15305"
+           y="209.54689"
+           id="tspan5339">∠A ≠ ∠B ≠ ∠C</tspan></text>
+    </g>
+    <g
+       id="g5520"
+       transform="matrix(0.27685473,0,0,0.27111855,-70.144782,108.22424)">
+      <g
+         id="g4042"
+         transform="translate(303.86526,-93.798528)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586082px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="235.6467"
+           y="189.87314"
+           id="text3732"><tspan
+             sodipodi:role="line"
+             id="tspan3730"
+             style="stroke-width:0.5;font-size:7.72586082px"
+             x="235.6467"
+             y="189.87314">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="156.60486"
+           y="267.20541"
+           id="text3752"><tspan
+             sodipodi:role="line"
+             id="tspan3750"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="156.60486"
+             y="267.20541">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="208.35881"
+           y="267.81668"
+           id="text3780"><tspan
+             sodipodi:role="line"
+             id="tspan3778"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="208.35881"
+             y="267.81668">B</tspan></text>
+        <path
+           id="path2435"
+           style="fill:none;stroke:#000000;stroke-width:0.484853;stroke-linejoin:round;stroke-dasharray:none"
+           inkscape:transform-center-y="-10.694004"
+           d="m 229.48885,196.46657 a 8.5178417,8.5178417 0 0 0 0.17439,0.20244 8.5178417,8.5178417 0 0 0 0.4505,0.4505 8.5178417,8.5178417 0 0 0 0.48306,0.41542 8.5178417,8.5178417 0 0 0 0.51214,0.37835 8.5178417,8.5178417 0 0 0 0.53969,0.33925 8.5178417,8.5178417 0 0 0 0.56275,0.29765 8.5178417,8.5178417 0 0 0 0.46402,0.20194 l 2.98963,-7.63389 z"
+           inkscape:transform-center-x="-1.3609601e-06" />
+        <path
+           id="path2455"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 162.51359,254.46199 -6.48487,5.61516 h 8.67699 a 8.9333687,8.9333687 0 0 0 -2.19212,-5.61516 z" />
+        <path
+           id="path2450"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 199.5966,260.07715 h 9.0563 l 3.15329,-8.05067 a 8.9333687,8.9333687 0 0 0 -3.29592,-0.63252 8.9333687,8.9333687 0 0 0 -8.91367,8.68319 z" />
+        <path
+           id="path2445"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 198.35533,260.07715 h 10.29757 l 3.60236,-9.19841 a 10.164206,10.164206 0 0 0 -3.74499,-0.71572 10.164206,10.164206 0 0 0 -10.15494,9.91413 z" />
+        <path
+           id="circle2415"
+           style="fill:none;stroke:#000000;stroke-width:0.408347;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 233.12324,197.59672 2.53421,-6.47092 -5.24051,4.53823 a 7.2958264,7.2958264 0 0 0 2.7063,1.93269 z" />
+        <path
+           id="circle2421"
+           style="fill:none;stroke:#000000;stroke-width:0.442743;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 232.21735,199.90924 3.4401,-8.78344 -7.12463,6.16913 a 9.7786283,9.7786283 0 0 0 3.68453,2.61431 z" />
+        <path
+           id="path2433"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;marker-end:"
+           inkscape:transform-center-x="1.4181805e-06"
+           inkscape:transform-center-y="-11.028095"
+           d="M 208.65266,260.07725 H 156.02868 L 235.6574,191.12557 Z"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="500.19724"
+         y="183.75563"
+         id="text2522"><tspan
+           sodipodi:role="line"
+           id="tspan2520"
+           style="font-size:7.72586px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="500.19724"
+           y="183.75563">अधिककोण त्रिभुज (Obtuse angled triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="500.19724"
+           y="193.50461"
+           id="tspan5327">एक कोण अधिक कोण (&gt; 90°)</tspan></text>
+    </g>
+    <g
+       id="g5537"
+       transform="matrix(0.27685473,0,0,0.27111855,-92.461281,108.22424)">
+      <g
+         id="g4072"
+         transform="translate(323.53225,-96.982042)">
+        <path
+           id="path2060"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;marker-end:"
+           inkscape:transform-center-x="4.0173345e-06"
+           inkscape:transform-center-y="-10.657449"
+           d="M 125.80113,263.65212 H 46.574981 l 79.433099,-68.96548 z"
+           sodipodi:nodetypes="cccc" />
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.418964;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect2383"
+           width="9.5810366"
+           height="9.5810356"
+           x="116.22009"
+           y="254.07109" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586082px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="126.30685"
+           y="193.39516"
+           id="text3736"><tspan
+             sodipodi:role="line"
+             id="tspan3734"
+             style="stroke-width:0.5;font-size:7.72586082px"
+             x="126.30685"
+             y="193.39516">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="47.151169"
+           y="270.95081"
+           id="text3748"><tspan
+             sodipodi:role="line"
+             id="tspan3746"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="47.151169"
+             y="270.95081">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="125.5966"
+           y="270.66269"
+           id="text3776"><tspan
+             sodipodi:role="line"
+             id="tspan3774"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="125.5966"
+             y="270.66269">B</tspan></text>
+        <path
+           id="path2474"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 53.052576,258.02818 -6.477641,5.62394 h 8.67699 a 8.9333687,8.9333687 0 0 0 -2.199349,-5.62394 z" />
+        <path
+           id="circle2403"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 125.98249,203.34831 0.0258,-8.66149 -6.45904,5.60793 a 8.9333687,8.9333687 0 0 0 6.4332,3.05356 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="410.51685"
+         y="183.75563"
+         id="text2526"><tspan
+           sodipodi:role="line"
+           id="tspan2524"
+           style="font-size:7.72586px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="410.51685"
+           y="183.75563">समकोण त्रिभुज (Right angled triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="410.51685"
+           y="193.50461"
+           id="tspan5325">एक कोण समकोण (= 90°)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="410.51685"
+           y="203.16193"
+           id="tspan5333">∠B = 90°</tspan></text>
+    </g>
+    <g
+       id="g5553"
+       transform="matrix(0.27685473,0,0,0.27111855,-107.16779,108.22424)">
+      <g
+         id="g4102"
+         transform="translate(314.53953,-99.324785)">
+        <path
+           id="path2385"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;marker-end:"
+           inkscape:transform-center-x="1.2203202e-06"
+           inkscape:transform-center-y="-11.477092"
+           d="m 27.262177,266.08718 -84.981481,-0.24994 39.757809,-68.86255 c 0,0 45.223552,69.11242 45.223672,69.11249 z"
+           sodipodi:nodetypes="cccc" />
+        <path
+           id="path2387"
+           style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -53.092781,257.82371 -4.62659,8.01347 h 9.541019 a 8.9907026,8.9907026 0 0 0 -4.914429,-8.01347 z" />
+        <path
+           id="path2389"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 18.530927,266.08718 h 8.73125 l -4.582048,-7.00241 c -2.658019,1.5729 -4.063302,3.91506 -4.149202,7.00241 z"
+           sodipodi:nodetypes="cccc" />
+        <path
+           id="path2391"
+           style="fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           d="m -12.576206,205.2047 -5.385386,-8.22999 -4.751131,8.22947 c 1.422375,0.89901 3.068493,1.38082 4.751131,1.39062 1.682764,-0.01 3.962807,-0.49118 5.385386,-1.3901 z"
+           sodipodi:nodetypes="ccccc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586082px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="-17.961334"
+           y="195.89769"
+           id="text3740"><tspan
+             sodipodi:role="line"
+             id="tspan3738"
+             style="stroke-width:0.5;font-size:7.72586082px"
+             x="-17.961334"
+             y="195.89769">A</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="-57.494976"
+           y="273.29355"
+           id="text3744"><tspan
+             sodipodi:role="line"
+             id="tspan3742"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="-57.494976"
+             y="273.29355">C</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="27.441898"
+           y="272.86661"
+           id="text3772"><tspan
+             sodipodi:role="line"
+             id="tspan3770"
+             style="font-size:7.72586px;stroke-width:0.5"
+             x="27.441898"
+             y="272.86661">B</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="299.29807"
+         y="183.75563"
+         id="text2530"><tspan
+           sodipodi:role="line"
+           id="tspan2528"
+           style="font-size:7.72586px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="299.29807"
+           y="183.75563">न्यूनकोण त्रिभुज (Acute angled  triangle)</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.72586px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+           x="299.29807"
+           y="193.50461"
+           id="tspan5341">प्रत्येक कोण न्यून कोण (&lt; 90°)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:2.82222px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.499999;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="24.366255"
+       y="122.90623"
+       id="text2534"><tspan
+         sodipodi:role="line"
+         id="tspan2532"
+         style="font-size:2.82222px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5"
+         x="24.366255"
+         y="122.90623">कोणों के आधार पर त्रिभुजों का नामकरण</tspan></text>
+  </g>
+</svg>

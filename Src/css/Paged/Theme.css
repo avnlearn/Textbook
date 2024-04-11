@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  /* font-family: var(--font) !important; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 8pt;
+  /* line-height: 1.2; */
+}
+
+@media print {
+  @page {
+    size: A5 portrait;
+    /* size: A5 landscape; */
+    /* size: A7; */
+    /* marks:crop; */
+    /* margin: 2mm; */
+    /* margin-bottom: 5mm; */
+  }
+}

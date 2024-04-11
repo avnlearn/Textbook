@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200.29099mm"
+   height="56.171997mm"
+   viewBox="0 0 200.29098 56.171997"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="CH1_collinear_and_non-collinear_points.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.54362802"
+     inkscape:cx="493.9039"
+     inkscape:cy="343.06547"
+     inkscape:window-width="952"
+     inkscape:window-height="1014"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1166"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="5.6666665"
+       markerHeight="5.6666665"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path1164"
+         sodipodi:nodetypes="sssss" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1112"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="5.6666665"
+       markerHeight="5.6666665"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path1110"
+         sodipodi:nodetypes="sssss" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Dot"
+       markerWidth="5.6666665"
+       markerHeight="5.6666665"
+       viewBox="0 0 5.6666667 5.6666667"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="Dot1"
+         sodipodi:nodetypes="sssss" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.829897,-81.742698)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linejoin:round;marker-start:url(#marker1112);marker-mid:url(#Dot);marker-end:url(#marker1166)"
+       d="m 48.704002,117.57593 h 21.96042 21.960419 21.960419 21.96042"
+       id="path236"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linejoin:round;marker-start:url(#marker1112);marker-mid:url(#Dot);marker-end:url(#marker1166)"
+       d="m 158.27968,117.57593 21.46706,-19.293589 21.69389,34.009149 21.60137,-21.43655 23.07936,6.72099"
+       id="path1334"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.352777;stroke-linejoin:round"
+       x="91.119598"
+       y="85.85643"
+       id="text3017"><tspan
+         sodipodi:role="line"
+         id="tspan3015"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352778"
+         x="91.119598"
+         y="85.85643">संरेख बिंदु (collinear points)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';text-align:center;text-anchor:middle;fill:none;stroke:#000000;stroke-width:0.352777;stroke-linejoin:round"
+       x="203.32372"
+       y="85.85643"
+       id="text3071"><tspan
+         sodipodi:role="line"
+         id="tspan3069"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352778"
+         x="203.32372"
+         y="85.85643">असंरेख बिंदु (non-collinear points)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="48.233242"
+       y="115.28703"
+       id="text3837"><tspan
+         sodipodi:role="line"
+         id="tspan3835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="48.233242"
+         y="115.28703">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="70.45826"
+       y="115.28703"
+       id="text3841"><tspan
+         sodipodi:role="line"
+         id="tspan3839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="70.45826"
+         y="115.28703">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="92.683281"
+       y="115.28703"
+       id="text3845"><tspan
+         sodipodi:role="line"
+         id="tspan3843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="92.683281"
+         y="115.28703">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="114.37912"
+       y="115.28703"
+       id="text3849"><tspan
+         sodipodi:role="line"
+         id="tspan3847"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="114.37912"
+         y="115.28703">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="136.60399"
+       y="115.28703"
+       id="text3853"><tspan
+         sodipodi:role="line"
+         id="tspan3851"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="136.60399"
+         y="115.28703">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="158.6862"
+       y="122.48343"
+       id="text3857"><tspan
+         sodipodi:role="line"
+         id="tspan3855"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="158.6862"
+         y="122.48343">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="179.84338"
+       y="96.214943"
+       id="text3867"><tspan
+         sodipodi:role="line"
+         id="tspan3865"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="179.84338"
+         y="96.214943">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="201.77809"
+       y="137.86884"
+       id="text3845-3"><tspan
+         sodipodi:role="line"
+         id="tspan3843-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="201.77809"
+         y="137.86884">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="222.82904"
+       y="108.35786"
+       id="text3849-7"><tspan
+         sodipodi:role="line"
+         id="tspan3847-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="222.82904"
+         y="108.35786">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.5861px;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.352777;stroke-linejoin:round"
+       x="246.03856"
+       y="115.99096"
+       id="text3853-3"><tspan
+         sodipodi:role="line"
+         id="tspan3851-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Devanagari UI';-inkscape-font-specification:'Noto Sans Devanagari UI';stroke-width:0.352778"
+         x="246.03856"
+         y="115.99096">E</tspan></text>
+  </g>
+</svg>

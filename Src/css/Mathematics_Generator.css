@@ -1,0 +1,16 @@
+ol > li::after {
+  content: " =";
+}
+
+ins {
+  display: none;
+}
+
+.ans ins {
+  display: inline;
+  text-decoration: none;
+}
+
+.ans ol > li::after {
+  content: "";
+}
