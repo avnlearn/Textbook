@@ -1,0 +1,34 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    // {
+    //   "path": "/mnt/Developer/Libraries/ePub/Pathshala/"
+    // }
+  ],
+  "settings": {
+    "fiveServer.highlight": true,
+    "fiveServer.openTerminal": false,
+    "fiveServer.browser": [
+      "/mnt/Develop/AppImages/ungoogled-chromium_116.0.5845.140-1.1.AppImage --incognito --remote-debugging-port=9222",
+      "/usr/bin/firefox --private-window"
+    ],
+
+    "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
+    // "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/Develop/AppImages/ungoogled-chromium_116.0.5845.140-1.1.AppImage --incognito --incognito --headless --remote-debugging-port=9222",
+    // "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/Develop/AppImages/ungoogled-chromium_116.0.5845.140-1.1.AppImage --incognito --remote-debugging-port=9222",
+    // chrome --incognito --headless --remote-debugging-port=9222
+    // "liveServer.settings.ChromeDebuggingAttachment": true,
+    "liveServer.settings.port": 9222,
+    "liveServer.settings.fullReload": true,
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Noto Sans', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Devanagari Condensed', 'Noto Sans Devanagari ExtraCondensed', 'Noto Sans Display', 'Noto Color Emoji', 'Noto Emoji', 'Noto Music', 'Noto Sans Symbols', 'Noto Sans Symbols2', 'Noto Sans Math', 'Noto Sans Mono'",
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif, 'Noto Sans', 'Noto Sans Devanagari'",
+    "latex-workshop.latexindent.path": "latexindent",
+    "markdown.preview.breaks": true,
+    "markdown.extension.print.onFileSave": false,
+    "liveServer.settings.multiRootWorkspaceName": "Textbooks",
+    "files.autoSave": "afterDelay"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Article",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "Article",
+        "${file}",
+        "${workspaceFolder}/Src/Pandoc/HTML/Article.yaml",
+        // "article",
+        "${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html"
+      ]
+    },
+    {
+      "label": "Report",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "Article",
+        "${file}",
+        // "${workspaceFolder}/Src/Pandoc/HTML/Article.yaml",
+        "report",
+        "${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html"
+      ]
+    },
+    {
+      "label": "Chrome",
+      "type": "shell",
+      "command": "${workspaceFolder}/Src/Chrome",
+      "args": [
+        "${workspaceFolder}/Dist/${fileBasenameNoExtension}.pdf",
+        "${file}"
+      ]
+    },
+    {
+      "label": "Simple",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "Article",
+        "${file}",
+        // "--defaults",
+        "Simple",
+        // "-M",
+        // "filename=\"${fileBasenameNoExtension}\"",
+        // "${fileBasenameNoExtension}",
+        // "-o",
+        "'${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html'"
+      ],
+      "isBackground": true
+    },
+    {
+      "label": "Pandoc Vivliostyle Preview",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "vivliostyle",
+        "${file}",
+        // "--defaults",
+        "Simple",
+        // "-M",
+        // "filename=\"${fileBasenameNoExtension}\"",
+        // "${fileBasenameNoExtension}",
+        // "-o",
+        "'${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html'"
+      ],
+      "isBackground": true
+    },
+    {
+      "label": "Pandoc Vivliostyle Article Preview",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "vivliostyle",
+        "${file}",
+        "Vivliostyle",
+        "'${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html'"
+      ],
+      "isBackground": true
+    },
+    {
+      "label": "Vivliostyle Preview",
+      "type": "shell",
+      "command": "vivliostyle",
+      "args": [
+        "preview",
+        "${file}"
+        // "--title \"${fileBasenameNoExtension}\"",
+        // "--executable-browser",
+        // "/mnt/Developer/AppImages/ungoogled-chromium_108.0.5359.125-1.1.AppImage",
+      ],
+      "isBackground": true
+    },
+    {
+      "label": "Vivliostyle Build",
+      "type": "shell",
+      "command": "vivliostyle",
+      "args": [
+        "build",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/Dist/PDF/${fileBasenameNoExtension}.pdf"
+        // "--preflight",
+        // "press-ready-local"
+      ],
+      "isBackground": true
+    },
+    {
+      "label": "Article PDF",
+      "type": "shell",
+      "command": "Pandoc",
+      "args": [
+        "PDF",
+        "${file}",
+        "${workspaceFolder}/Dist/PDF/${fileBasenameNoExtension}.pdf"
+      ]
+    },
+    {
+      "label": "HTML",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "--standalone",
+        // "--section-divs",
+        // "--mathml",
+        // "--mathjax",
+        // "--webtex",
+        // "https://latex.codecogs.com/svg.latex?",
+        "--katex",
+        // "--gladtex",
+        // "https://humenda.github.io/GladTeX/"
+        "--css",
+        "${workspaceFolder}/Src/css/Article.css",
+        "-M",
+        "title=\"${fileBasenameNoExtension}\"",
+        "-t",
+        "html5",
+        "-o",
+        "'${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html'"
+      ]
+    },
+    {
+      "label": "JSON",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "-o",
+        "${workspaceFolder}/Dist/json/${fileBasenameNoExtension}.json"
+      ]
+    },
+    {
+      "label": "Report LaTeX",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "--pdf-engine",
+        "xelatex",
+        "-V",
+        "mainfont='Noto Sans Devanagari'",
+        "-V",
+        "geometry=margin=0.5mm",
+        "-V",
+        "fontsize=10pt",
+        "-s",
+        "-o",
+        "${workspaceFolder}/Dist/LaTeX/${fileBasenameNoExtension}.tex"
+      ]
+    },
+
+    {
+      "label": "Article ePub",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "-t",
+        "epub3",
+        "--file-scope",
+        "true",
+        // "--default-image-extension=png",
+        "--resource-path",
+        "${workspaceFolder}/Markdown/",
+        "--mathml",
+        "--epub-cover-image=\"${workspaceFolder}/Markdown/Assets/ePub_Cover/Mathematics.svg\"",
+        // --epub-title-page=true|false,
+        // --epub-metadata=FILE
+        "-M",
+        "title=\"${fileBasenameNoExtension}\"",
+        // "-M",
+        // "mainfont=\"Yantramanav\"",
+        // "--epub-embed-font=\"/mnt/Developer/Applications/Fonts/Yantramanav/Yantramanav-*.ttf\"",
+        // --epub-subdirectory=DIRNAME
+        // "--toc",
+        "-o",
+        "${workspaceFolder}/Dist/ePub/${fileBasenameNoExtension}.epub"
+      ]
+    },
+    {
+      "label": "Article DOCX",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "--resource-path",
+        "${workspaceFolder}/Markdown/",
+        "-o",
+        "${workspaceFolder}/Dist/Docs/${fileBasenameNoExtension}.docx"
+      ]
+    },
+    {
+      "label": "Article OpenOffice text document",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "--resource-path",
+        "${workspaceFolder}/Markdown/",
+        "-o",
+        "${workspaceFolder}/Dist/Office/OpenOffice/${fileBasenameNoExtension}.odt"
+      ]
+    },
+    {
+      "label": "Article Markdown",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        // "-M",
+        // "title=\"${fileBasenameNoExtension}\"",
+        // "--mathjax",
+        "-f",
+        "html+tex_math_single_backslash+tex_math_double_backslash-native_spans  ",
+        // "markdown_strict+rebase_relative_paths",
+        // "markdown",
+        "-o",
+        "${workspaceFolder}/Dist/Markdown/${fileBasenameNoExtension}.md"
+      ]
+    },
+    {
+      "label": "Markdown Strict",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        // "-M",
+        // "title=\"${fileBasenameNoExtension}\"",
+        // "--mathjax",
+        // "-f",
+        // "html+tex_math_single_backslash+tex_math_double_backslash-native_spans  ",
+        // "markdown-native_span",
+        "-t",
+        "markdown_strict",
+        // "markdown_strict+rebase_relative_paths",
+        // "markdown",
+        "-o",
+        "${workspaceFolder}/Dist/Markdown/${fileBasenameNoExtension}.md"
+      ]
+    },
+    {
+      "label": "Chunked HTML",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "-t",
+        "chunkedhtml",
+        "--resource-path",
+        "${workspaceFolder}/Markdown/",
+        "--split-level",
+        "2",
+        "${file}",
+        "-o",
+        "${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}"
+      ]
+    },
+    {
+      "label": "Rich Text format",
+      "type": "shell",
+      "command": "pandoc",
+      "args": [
+        "${file}",
+        "--resource-path",
+        "${workspaceFolder}/Markdown/",
+        "-t",
+        "rtf",
+        "-o",
+        "${workspaceFolder}/Dist/RTF/${fileBasenameNoExtension}.rtf"
+      ]
+    },
+    {
+      "label": "Daring Fireball",
+      "type": "shell",
+      "command": "Markdown",
+      "args": [
+        "--html4tags",
+        "${file}",
+        ">",
+        "'${workspaceFolder}/Dist/HTML/${fileBasenameNoExtension}.html'"
+      ]
+    }
+  ]
+}

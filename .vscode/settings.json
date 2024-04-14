@@ -1,0 +1,18 @@
+{
+  "restructuredtext.preview.name": "docutils",
+  "latex-workshop.latex.magic.args": [
+    "-synctex=1",
+    "-interaction=nonstopmode",
+    "-file-line-error",
+    "%DOC%"
+  ],
+  "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Noto Sans', 'Noto Sans Devanagari'",
+  "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif, 'Noto Sans', 'Noto Sans Devanagari'",
+  "latex-workshop.latex.build.forceRecipeUsage": false,
+  "latex-workshop.latex.autoClean.run": "onSucceeded",
+  "Lua.diagnostics.globals": [
+    "shuffle",
+    "pandoc"
+  ]
+}
