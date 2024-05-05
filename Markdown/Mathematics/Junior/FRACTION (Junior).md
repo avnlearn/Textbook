@@ -1,12 +1,12 @@
 # Fraction
 
 1. Write the fraction representing the shaded portion:
-   (a) ![(a)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_1.svg)
-   (b) ![(b)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_2.svg)
-   (c) ![(c)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_3.svg)
-   (d) ![(d)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_4.svg)
-   (e) ![(e)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_5.svg)
-   (f) ![(f)](Assets/RS_Aggarwal_CL6/EX_5A-Q1_6.svg)
+   (a) ![(a)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_1.svg)
+   (b) ![(b)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_2.svg)
+   (c) ![(c)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_3.svg)
+   (d) ![(d)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_4.svg)
+   (e) ![(e)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_5.svg)
+   (f) ![(f)](Assets/RS_AGGARWAL_VI/EX_5A-Q1_6.svg)
 2. Shade the figures to show the fractions written below them.
    (a) ![(a)](Assets/MATH_STEP_4/EX_32_Q2_a.svg)
    (b) ![(b)](Assets/MATH_STEP_4/EX_32_Q2_b.svg)

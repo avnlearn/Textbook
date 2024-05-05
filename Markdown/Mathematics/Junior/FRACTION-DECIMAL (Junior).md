@@ -27,10 +27,6 @@
    (d) $\frac{7}{10}$
    (e) $\frac{1}{3}$
    (f) $\frac{3}{4}$
-   (g) $\frac{3}{8}$
-   (i) $\frac{9}{14}$
-   (j) $\frac{5}{11}$
-   (k) $\frac{6}{15}$
 5. Write the numerators and the denominators of the following fractional numbers:
    (a) $\frac{3}{5}$
    (b) $\frac{4}{7}$
@@ -58,20 +54,13 @@
     (a) 3 ÷ 5
     (b) 5 ÷ 3
     (c) 7 ÷ 9
-    (d) 9 ÷ 7
-    (e) 8 ÷ 11
-    (f) 11 ÷ 13
-    (g) 15 ÷ 25
-    (h) 8 ÷ 1
+    (d) 9 ÷ 1
 12. Write each of the following fractions in the form of division:
     (a) $\frac{7}{9}$
     (b) $\frac{8}{11}$
-    (c) $\frac{12}{15}$
+    (c) 2$\frac{1}{4}$
     (d) $\frac{8}{8}$
     (e) $\frac{6}{1}$
-    (f) $\frac{22}{9}$
-    (g) 2$\frac{1}{4}$
-    (h) 6$\frac{2}{5}$
 13. Express each of the following as a mixed fraction or a whole number:
     (a) $\frac{20}{3}$
     (b) $\frac{11}{5}$
