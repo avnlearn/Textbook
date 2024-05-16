@@ -48,7 +48,7 @@
    (a) $\frac{1}{10}$, $\frac{3}{10}$, $\frac{7}{10}$, $\frac{10}{7}$
    (b) $\frac{4}{13}$, $\frac{7}{13}$, $\frac{11}{13}$, $\frac{13}{11}$
    (c) $\frac{19}{11}$, $\frac{11}{19}$, $\frac{15}{19}$, $\frac{16}{19}$
-9. Which of the following are proper fractions, improper fractions and mixed fractions? <br> $\frac{1}{2}$, $\frac{3}{5}$, $\frac{10}{7}$, $\frac{7}{4}$, 2, $\frac{15}{8}$,  $\frac{16}{16}$, 3$\frac{6}{17}$, $\frac{10}{11}$, $\frac{23}{10}$, $\frac{3}{2}, $\frac{5}{6}$, $\frac{9}{4}$, $\frac{8}{8}$, 3, $\frac{27}{16}$, $\frac{23}{31}$, $\frac{19}{18}$, $\frac{10}{13}$, $\frac{26}{26}$, 3$\frac{1}{4}$, 1$\frac{1}{2}$, $\frac{4}{5}$, 7$\frac{1}{4}$, 8$\frac{3}{7}$, $\frac{12}{1}$, 9$\frac{1}{3}$, $\frac{12}{17}$, 21$\frac{1}{12}$, 29$\frac{3}{4}$, $\frac{9}{18}$
+9. Which of the following are proper fractions, improper fractions and mixed fractions? <br> $\frac{1}{2}$, $\frac{3}{5}$, $\frac{10}{7}$, $\frac{7}{4}$, 2, $\frac{15}{8}$, $\frac{16}{16}$, 3$\frac{6}{17}$, $\frac{10}{11}$, $\frac{23}{10}$, $\frac{3}{2}$, $\frac{5}{6}$, $\frac{9}{4}$, $\frac{8}{8}$, 3, $\frac{27}{16}$, $\frac{23}{31}$, $\frac{19}{18}$, $\frac{10}{13}$, $\frac{26}{26}$, 3$\frac{1}{4}$, 1$\frac{1}{2}$, $\frac{4}{5}$, 7$\frac{1}{4}$, 8$\frac{3}{7}$, $\frac{12}{1}$, 9$\frac{1}{3}$, $\frac{12}{17}$, 21$\frac{1}{12}$, 29$\frac{3}{4}$, $\frac{9}{18}$
 10. Ring the unit fractions: <br> $\frac{7}{1}$, $\frac{1}{2}$, $\frac{1}{7}$, $\frac{8}{1}$, $\frac{8}{9}$, $\frac{1}{9}$
 11. Write each of the following divisions as fractions:
     (a) 3 ÷ 5
@@ -241,17 +241,12 @@ Find
 41. (a) $\frac{1}{4}$ + $\frac{2}{4}$
     (b) $\frac{2}{5}$ + $\frac{1}{5}$
     (c) $\frac{4}{8}$ + $\frac{1}{8}$
-    (d) $\frac{1}{3}$ + $\frac{1}{3}$
-    (e) $\frac{4}{6}$ + $\frac{1}{6}$
-    (f) $\frac{3}{8}$ + $\frac{4}{8}$
-    (g) $\frac{2}{9}$ + $\frac{3}{9}$
-    (h) $\frac{4}{10}$ + $\frac{3}{10}$
-    (i) $\frac{5}{17}$ + $\frac{2}{17}$
-    (j) $\frac{4}{18}$ + $\frac{3}{18}$
-    (k) $\frac{1}{12}$ + $\frac{4}{12}$
-    (l) $\frac{2}{13}$ + $\frac{4}{13}$
-    (m) $\frac{4}{19}$ + $\frac{15}{19}$
-    (n) $\frac{7}{22}$ + $\frac{25}{22}$
+    (d) $\frac{4}{10}$ + $\frac{3}{10}$
+    (e) $\frac{5}{17}$ + $\frac{2}{17}$
+    (f) $\frac{4}{18}$ + $\frac{3}{18}$
+    (g) $\frac{1}{12}$ + $\frac{4}{12}$
+    (h) $\frac{2}{13}$ + $\frac{4}{13}$
+    (i) $\frac{4}{19}$ + $\frac{15}{19}$
 42. (a) $\frac{2}{17}$ + $\frac{3}{17}$ + $\frac{5}{17}$
     (b) $\frac{4}{19}$ + $\frac{7}{19}$ + $\frac{9}{19}$
     (c) $\frac{3}{20}$ + $\frac{7}{20}$ + $\frac{9}{20}$

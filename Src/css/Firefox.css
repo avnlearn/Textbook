@@ -6,7 +6,7 @@
 @import url(Report.css);
 /* @import url(Browser/One-Side.css); */
 @import url(Browser/Two-Side.css);
-@import url(Mathematics_Generator.css);
+/* @import url(Mathematics_Generator.css); */
 /* @import url(Gallery.css); */
 
 :root,
@@ -14,8 +14,8 @@ html,
 body,
 th {
   /* font-size: 8.6pt !important; */
-  font-size: 9pt !important;
-  line-height: 1.3 !important;
+  font-size: 8pt !important;
+  line-height: 1.2 !important;
 }
 
 main {
