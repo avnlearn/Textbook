@@ -1,2 +1,0 @@
-- [Fruits](https://thewordsearch.com/static/puzzle/word-search-6122935.png)
-- [Vegetables](https://thewordsearch.com/static/puzzle/word-search-6122925.png)
