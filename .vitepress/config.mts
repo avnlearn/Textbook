@@ -6,13 +6,14 @@ import markdownItFormatting from './lib/markdown-it-formatting';
 export default defineConfig({
   title: "AvN Learn Docs",
   description: "A avnlearn docs",
-  base: '/Textbook/',
+  // base: '/Textbook/',
   appearance: 'dark',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   sitemap: {
-    hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
+    hostname: "https://ebook.avnlearn.com"
+    // hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
   },
   cleanUrls: true,
   // rewrites: {
