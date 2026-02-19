@@ -6,6 +6,7 @@ import markdownItFormatting from './lib/markdown-it-formatting';
 export default defineConfig({
   title: "AvN Learn Docs",
   description: "A avnlearn docs",
+  base: '/Textbook/',
   appearance: 'dark',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
