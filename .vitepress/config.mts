@@ -11,7 +11,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   sitemap: {
-    hostname: 'https://avnlearn.com' // Replace with your production URL
+    hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
   },
   cleanUrls: true,
   rewrites: {
@@ -47,7 +47,6 @@ export default defineConfig({
   srcDir: "docs",
   srcExclude: ['**/README.md', '**/TODO.md'],
   outDir: 'public',
-  assetsDir: 'static',
   vite: {
     plugins: [
       tailwindcss()
