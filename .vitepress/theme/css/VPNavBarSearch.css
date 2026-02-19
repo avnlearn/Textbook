@@ -1,0 +1,19 @@
+@theme {
+  --vp-local-search-bg: var(--color-secondary-dark);
+}
+@layer components {
+  .VPLocalSearchBox[data-v-ba50950c] {
+    @apply bg-secondary-dark dark:bg-secondary;
+    & .backdrop {
+    }
+    & .shell {
+      @apply bg-primary!;
+      & .search-bar {
+        @apply bg-secondary-dark!;
+        & .search-input {
+          @apply bg-background-dark! text-background!;
+        }
+      }
+    }
+  }
+}

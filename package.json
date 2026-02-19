@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
+    "@types/markdown-it": "^14.1.2",
+    "@types/roman-numerals": "^0.3.2",
+    "vitepress": "^2.0.0-alpha.16",
+    "roman-numerals": "^0.3.2"
+  }
+}
