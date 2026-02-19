@@ -5,30 +5,7 @@ layout: post
 
 ## Year 2025
 
-
-<table class="w-full">
-    <thead>
-        <tr>
-            <th>Shift 1</th>
-            <th>Shift 2</th>
-            <th>Answer</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><a href="../qp/bihar-board/2025/san/bihar-board-class-10-sanskrit-sil-105-set-b-2025.pdf" download="">SET B</a></td>
-            <td rowspan="3"><a href="../qp/bihar-board/2025/san/bihar-board-class-10-sanskrit-sil-105-set-a.pdf">SET A</a></td>
-            <td rowspan="2"><a href="../qp/bihar-board/2025/san/105-SANSKRIT-2025-1st.pdf">1<sup>st</sup></a></td>
-        </tr>
-        <tr>
-            <td> <a href="../qp/bihar-board/2025/san/bihar-board-class-10-sanskrit-sil-105-set-b-2025.pdf" download="">SET E</a></td>
-        </tr>
-        <tr>
-            <td><a href="../qp/bihar-board/2025/san/bihar-board-class-10-sanskrit-sil-105-set-b-2025.pdf" download="">SET H</a></td>
-            <td><a href="../qp/bihar-board/2025/san/105-SANSKRIT-2025-2nd.pdf">2<sup>nd</sup></a></td>
-        </tr>
-    </tbody>
-</table>
+<!-- @include: qp/bihar-board/2025.html -->
 
 ## Year 2024
 
