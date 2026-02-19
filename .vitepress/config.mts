@@ -14,9 +14,9 @@ export default defineConfig({
     hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
   },
   cleanUrls: true,
-  rewrites: {
-    'posts/(.*)': '(.*)'
-  },
+  // rewrites: {
+  //   'posts/(.*)': '(.*)'
+  // },
   markdown: {
     config: (md) => {
       // use more markdown-it plugins!
