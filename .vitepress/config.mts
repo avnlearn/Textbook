@@ -5,9 +5,10 @@ import markdownItFormatting from './lib/markdown-it-formatting';
 import { googleServicesPlugin } from './plugins/google-services'
 
 export default defineConfig({
-  title: "AvN Learn Docs",
-  description: "A avnlearn docs",
+  title: "AvN Learn: Comprehensive Ebooks for Bihar, NCERT, and CBSE",
+  description: "AvN Learn is your ultimate resource for academic success. Offering a wide range of ebooks tailored for Bihar Board, NCERT, and CBSE students, we provide model papers, previous year questions, and detailed examples. Our ebooks are designed to enhance your learning experience and help you excel in your exams. Join us today to access expert-curated content that aligns with your curriculum and boosts your confidence. AvN Learn: Where learning meets excellence!",
   // base: '/Textbook/',
+
   appearance: 'dark',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
