@@ -10,6 +10,7 @@ const { site, frontmatter } = useData();
 </script>
 
 <template>
+
   <div class="print:min-h-screen dark:bg-background-dark bg-background text-foreground dark:text-foreground-dark">
     <VHeader />
     <!-- Home Layout -->
@@ -29,7 +30,8 @@ const { site, frontmatter } = useData();
       </nav>
       <Content />
     </div>
-    <BackToTop />
     <VFooter />
+    <BackToTop />
   </div>
+  
 </template>

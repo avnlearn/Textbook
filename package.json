@@ -6,10 +6,12 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
-    "tailwindcss": "^4.1.18",
     "@types/markdown-it": "^14.1.2",
     "@types/roman-numerals": "^0.3.2",
+    "pdfjs-dist": "^5.4.624",
+    "roman-numerals": "^0.3.2",
+    "tailwindcss": "^4.1.18",
     "vitepress": "^2.0.0-alpha.16",
-    "roman-numerals": "^0.3.2"
+    "vue-pdf-embed": "^2.1.3"
   }
 }

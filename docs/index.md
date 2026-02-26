@@ -1,6 +1,5 @@
 ---
 layout: page
-home: true
 ---
 
-Hello
+<PostList />

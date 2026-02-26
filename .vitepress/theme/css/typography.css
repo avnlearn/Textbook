@@ -161,7 +161,7 @@
       @apply outline-none ring-2 ring-indigo-300 dark:ring-indigo-600 rounded-lg;
     }
     /* SEO/performance: add loading="lazy" to <img> */
-    & mjx-container.MathJax[jax="SVG"] svg{
+    & mjx-container.MathJax[jax="SVG"] svg {
       display: inline;
     }
     & figcaption {
@@ -228,102 +228,66 @@
       @apply ring-2 ring-indigo-300 dark:ring-indigo-600;
     }
 
-    /* Tables */
-    & table {
-      scrollbar-color: theme(--color-link-dark) theme(--color-zinc-600);
+    & .table-container {
+      @apply w-full overflow-x-auto rounded-xl border border-zinc-700/50 my-8;
+      backdrop-filter: blur(12px); /* Glassmorphism */
       scrollbar-width: thin;
-      scrollbar-highlight-color: theme(--color-link);
-      @apply block w-full scroll-smooth rounded-lg my-8 text-sm;
-      overflow-x: auto;
-      box-shadow:
-        0 2px 10px rgba(0, 0, 0, 0.1),
-        0 0px 20px rgba(0, 0, 0, 0.05);
-
-      & thead {
-        @apply bg-zinc-800 dark:bg-zinc-900;
-      }
-
-      & th {
-        @apply py-3 px-4 text-left font-semibold text-white;
-        font-size: 1rem;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-      }
-
-      & td {
-        @apply py-3 px-4 border-b border-zinc-700;
-        transition: background-color 0.3s ease;
-
-        &:hover {
-          @apply bg-zinc-700;
-        }
-      }
-    }
-    .table {
-      @apply w-full scroll-smooth border-collapse rounded-lg my-8 text-sm;
-      box-shadow:
-        0 2px 10px rgba(0, 0, 0, 0.1),
-        0 0px 20px rgba(0, 0, 0, 0.05);
-
-      & thead {
-        @apply bg-zinc-800 dark:bg-zinc-900;
-      }
-
-      & th {
-        @apply py-3 px-4 text-left font-semibold text-white;
-        font-size: 1rem;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-      }
-
-      & td {
-        @apply py-3 px-4 border-b border-zinc-700 text-right;
-        transition: background-color 0.3s ease;
-
-        &:hover {
-          @apply bg-zinc-700;
-          cursor: pointer;
-        }
-      }
+      scrollbar-color: theme("colors.green.600") transparent;
     }
 
-    @media (max-width: 640px) {
-      .table {
-        @apply block w-full;
+    /* 2. THE TABLE CORE */
+    & table,
+    .table-full {
+      /* min-w-full fills the container; w-max allows expansion for scroll */
+      @apply min-w-full w-max border border-separate border-spacing-0 text-sm transition-all;
 
-        & tbody,
-        & th,
-        & td,
-        & tr {
-          @apply block w-full;
-        }
-
-        & tr {
-          margin-bottom: 0.75rem;
-          border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-          display: flex;
-          flex-direction: column;
-        }
-
+      & thead {
+        @apply dark:bg-foreground bg-foreground-dark;
         & th {
-          display: table-header-group;
-          @apply mb-2;
+          @apply py-4 px-6 border dark:border-background-dark text-left font-bold uppercase tracking-widest text-foreground dark:text-foreground-dark;
+          font-size: 0.7rem;
+          border-bottom: 1px solid theme(--color-green-500);
+        }
+      }
+
+      & td {
+        @apply py-4 px-6 border border-zinc-800/50;
+      }
+
+      & tr:last-child td {
+        @apply border-b-0;
+      }
+
+      /* Modern Hover State */
+      & tr:hover td {
+        @apply bg-white/3 text-white;
+      }
+    }
+
+    /* 3. RESPONSIVE FLEX (Mobile Cards) */
+    @media (max-width: 640px) {
+      & .table-flex {
+        @apply block border-none bg-transparent shadow-none;
+
+        & thead {
+          @apply hidden;
+        }
+        & tbody {
+          @apply space-y-4 block;
+        }
+
+        & tr {
+          @apply block rounded-xl border border-zinc-700 bg-zinc-900/80 p-2;
         }
 
         & td {
-          display: flex;
-          justify-content: space-between;
-          padding: 0.6rem 1rem;
-          position: relative;
-          text-align: right;
-        }
+          @apply flex justify-between items-center px-4 py-3 border-none text-right;
 
-        & td::before {
-          content: attr(data-label);
-          font-weight: 600;
-          margin-right: 0.75rem;
-          color: theme("colors.zinc.600");
-          position: absolute;
-          left: 0;
-          width: 50%;
+          &::before {
+            content: attr(data-label);
+            @apply font-bold text-zinc-500 text-[10px] uppercase tracking-tighter text-left;
+            flex: 1;
+          }
         }
       }
     }

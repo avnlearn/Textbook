@@ -1,99 +1,60 @@
-<!-- PostNav.vue -->
 <script setup lang="ts">
-import { useRoute, useData, withBase } from "vitepress";
-import { computed } from "vue";
-import { data as allPostsByLang } from "../postType/posts.data";
+import { computed } from 'vue'
+import { useData, withBase } from 'vitepress'
+import { data as allPosts } from '../composables/posts.data'
 
-const route = useRoute();
-const { lang: siteLang } = useData();
+const { page } = useData()
 
-/**
- * 1. Identify the current language
- * Root maps to 'en', /hi/ maps to 'hi'
- */
-const currentLang = computed(() => {
-  return siteLang.value.toLowerCase().includes('hi') ? 'hi' : 'en';
-});
+const control = computed(() => {
+  // Normalize current URL to match our cleaned data URLs
+  const curUrl = page.value.relativePath
+    .replace(/(\/index)?\.md$/, '')
+    .replace(/^\/?/, '/')
 
-/**
- * 2. Get the post list for the current language only
- */
-const posts = computed(() => allPostsByLang[currentLang.value] || []);
+  const index = allPosts.findIndex(p => p.url === curUrl)
 
-/**
- * 3. Normalize paths for matching
- */
-const normalize = (path: string) => {
-  return decodeURIComponent(path)
-    .replace(/\/index\.html$/, '/')
-    .replace(/\.html$/, '')
-    .replace(/\/$/, '')
-    .toLowerCase() || '/';
-};
-
-const currentIndex = computed(() => {
-  const currentPath = normalize(route.path);
-  return posts.value.findIndex(p => normalize(p.url) === currentPath);
-});
-
-// Navigation logic (Data is sorted Newest -> Oldest)
-// Newer = Index - 1 | Older = Index + 1
-const nextPost = computed(() => {
-  if (currentIndex.value > 0) return posts.value[currentIndex.value - 1];
-  return null;
-});
-
-const prevPost = computed(() => {
-  if (currentIndex.value !== -1 && currentIndex.value < posts.value.length - 1) {
-    return posts.value[currentIndex.value + 1];
+  return {
+    prev: index > 0 ? allPosts[index - 1] : null,
+    next: index < allPosts.length - 1 ? allPosts[index + 1] : null
   }
-  return null;
-});
-
-// UI Strings for i18n
-const labels = computed(() => {
-  return currentLang.value === 'hi' 
-    ? { older: 'पुराना लेख', newer: 'नया लेख' }
-    : { older: 'Older Post', newer: 'Newer Post' };
-});
+})
 </script>
 
 <template>
-  <nav 
-    v-if="prevPost || nextPost"
-    class="mt-16 pt-8 border-t border-zinc-200 dark:border-zinc-800 grid grid-cols-1 sm:grid-cols-2 gap-4 print:hidden" 
-    aria-label="Post navigation"
-  >
-    <!-- Older Post (Previous in Time) -->
-    <div class="flex">
-      <a 
-        v-if="prevPost" 
-        :href="withBase(prevPost.url)" 
-        class="group flex flex-col items-start p-4 w-full rounded-xl border border-zinc-100 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-all"
-      >
-        <span class="text-[10px] uppercase tracking-[0.2em] text-zinc-500 mb-2 font-semibold">
-          {{ labels.older }}
-        </span>
-        <span class="text-sm font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2 text-left">
-          ← {{ prevPost.title }}
-        </span>
-      </a>
-    </div>
+  <nav v-if="control.prev || control.next"
+    class="grid sm:grid-cols-2 gap-4 my-12 border-t border-slate-100 dark:border-slate-800 pt-8">
 
-    <!-- Newer Post (Next in Time) -->
-    <div class="flex justify-end text-right">
-      <a 
-        v-if="nextPost" 
-        :href="withBase(nextPost.url)" 
-        class="group flex flex-col items-end p-4 w-full rounded-xl border border-zinc-100 dark:border-zinc-800 hover:bg-zinc-50 dark:hover:bg-zinc-800/50 transition-all"
-      >
-        <span class="text-[10px] uppercase tracking-[0.2em] text-zinc-500 mb-2 font-semibold">
-          {{ labels.newer }}
-        </span>
-        <span class="text-sm font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-2 text-right">
-          {{ nextPost.title }} →
-        </span>
-      </a>
-    </div>
+    <!-- Previous Post -->
+    <a v-if="control.prev" :href="withBase(control.prev.url)"
+      class="group flex flex-col p-6 rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all duration-300">
+      <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2 flex items-center">
+        <svg class="mr-2 w-3 h-3 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path>
+        </svg>
+        Previous
+      </span>
+      <span
+        class="text-base font-bold text-slate-900 dark:text-white line-clamp-1 group-hover:text-blue-600 transition-colors">
+        {{ control.prev.title }}
+      </span>
+    </a>
+    <div v-else></div>
+
+    <!-- Next Post -->
+    <a v-if="control.next" :href="withBase(control.next.url)"
+      class="group flex flex-col p-6 text-right rounded-2xl border border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-all duration-300">
+      <span class="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-2 flex items-center justify-end">
+        Next
+        <svg class="ml-2 w-3 h-3 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor"
+          viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </span>
+      <span
+        class="text-base font-bold text-slate-900 dark:text-white line-clamp-1 group-hover:text-blue-600 transition-colors">
+        {{ control.next.title }}
+      </span>
+    </a>
   </nav>
 </template>

@@ -16,9 +16,10 @@ export default defineConfig({
     // hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
   },
   cleanUrls: true,
-  // rewrites: {
-  //   'posts/(.*)': '(.*)'
-  // },
+  rewrites: {
+    'posts/(.*)': '(.*)',
+    'bseb/(.*)': 'bseb/(.*)'
+  },
   markdown: {
     config: (md) => {
       // use more markdown-it plugins!
@@ -31,27 +32,24 @@ export default defineConfig({
   themeConfig: {
     logo: "/assets/logo.o.svg",
     nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'AvN Learn',
-        items: [
-          { text: 'Posts', link: '/posts' },
-          { text: 'Book', link: '/books' },
-          { text: 'Exam', link: '/exam' }
-        ]
-      },
-      { text: 'Guide', link: '/guide' }
+      { text: 'Home', link: "https://www.avnlearn.com" },
+      { text: 'Bihar Board', link: '/bihar-board' },
     ],
+    
     search: {
       provider: 'local'
     }
   },
   srcDir: "docs",
   srcExclude: ['**/README.md', '**/TODO.md'],
-  outDir: 'public',
+  outDir: 'dist',
   vite: {
     plugins: [
       tailwindcss()
-    ]
+    ],
+    ssr: {
+      // Prevents "window is not defined" errors during build
+      noExternal: ['vue-pdf-embed', 'pdfjs-dist']
+    }
   }
 })
