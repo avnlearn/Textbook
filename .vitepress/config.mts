@@ -54,7 +54,7 @@ export default defineConfig({
     }
   },
   ...googleServicesPlugin({
-    gaId: 'G-XXXXXXXXXX',
-    searchConsoleId: 'your-verification-code'
+    gaId: 'G-NHCE9C7TQ3',
+    searchConsoleId: 'ftjLgS6JkV3lI2iH5fRAvHi88wGzNYuIuOUTDjwK3W8'
   })
 })
