@@ -2,7 +2,8 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vitepress'
 import markdownItSubSup from "./lib/markdown-it-sub-sup";
 import markdownItFormatting from './lib/markdown-it-formatting';
-// https://vitepress.dev/reference/site-config
+import { googleServicesPlugin } from './plugins/google-services'
+
 export default defineConfig({
   title: "AvN Learn Docs",
   description: "A avnlearn docs",
@@ -35,7 +36,7 @@ export default defineConfig({
       { text: 'Home', link: "https://www.avnlearn.com" },
       { text: 'Bihar Board', link: '/bihar-board' },
     ],
-    
+
     search: {
       provider: 'local'
     }
@@ -51,5 +52,9 @@ export default defineConfig({
       // Prevents "window is not defined" errors during build
       noExternal: ['vue-pdf-embed', 'pdfjs-dist']
     }
-  }
+  },
+  ...googleServicesPlugin({
+    gaId: 'G-XXXXXXXXXX',
+    searchConsoleId: 'your-verification-code'
+  })
 })
