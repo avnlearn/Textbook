@@ -2,10 +2,7 @@
   "folders": [
     {
       "path": "."
-    },
-    // {
-    //   "path": "/mnt/Developer/Libraries/ePub/Pathshala/"
-    // }
+    }
   ],
   "settings": {
     "tailwindCSS.includeLanguages": {
