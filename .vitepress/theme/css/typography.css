@@ -1,8 +1,9 @@
-@reference "../style.css";
+@reference "./style.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap");
 
 @layer components {
   .prose {
-    @apply text-base leading-relaxed mx-auto text-zinc-800 bg-white dark:text-zinc-300 dark:bg-zinc-950;
+    @apply text-base leading-relaxed mx-auto;
     width: 100%;
     /* max-width: 70ch; */
     /* padding: 1.25rem; */
@@ -16,12 +17,10 @@
       transform 0.25s ease;
     will-change: color, background-color, transform;
     isolation: isolate;
-
     /* Reduced motion */
     @media (prefers-reduced-motion: reduce) {
       @apply transition-none;
     }
-
     /* Headings */
     & h1,
     & h2,
@@ -47,15 +46,13 @@
     & h3 {
       @apply text-2xl md:text-3xl;
     }
-
     /* Paragraphs */
     & p {
       @apply mb-6 text-lg md:text-base;
     }
-
     /* Links */
     & a {
-      @apply inline-block text-indigo-600 dark:text-indigo-400 font-medium no-underline relative;
+      @apply inline-block text-green-800 dark:text-green-400 font-medium no-underline relative;
       text-decoration-skip-ink: auto;
     }
     & a::after {
@@ -67,8 +64,8 @@
       height: 2px;
       background: linear-gradient(
         90deg,
-        theme("colors.indigo.500"),
-        theme("colors.indigo.400")
+        theme("colors.green.500"),
+        theme("colors.green.400")
       );
       transform-origin: left center;
       transform: scaleX(0.12);
@@ -85,46 +82,49 @@
       box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
       border-radius: 4px;
     }
-
-    /* Lists */
-    & ul {
-      @apply list-none pl-0 mb-3 space-y-3;
-    }
-    & ul li {
-      @apply relative pl-5;
-    }
-    & ul li::before {
-      content: "•";
-      position: absolute;
-      left: 0;
-      top: 0;
-      color: theme("colors.orange.500");
-      font-weight: 700;
-      font-size: 1.125rem;
-      line-height: 1;
-    }
+    /* List Style */
+    & ul,
     & ol {
-      @apply list-decimal pl-7 ml-8 mb-6 space-y-3 marker:text-zinc-400 marker:font-semibold;
+      @apply my-6 space-y-4;
     }
-
+    /* Simple Unordered List */
+    & ul {
+      @apply list-disc pl-6;
+      & > li::marker {
+        @apply text-orange-500;
+      }
+    }
+    /* Simple Ordered List */
+    & ol {
+      @apply list-decimal pl-6;
+      & > li::marker {
+        @apply font-bold;
+      }
+    }
+    /* Nested Lists: Keep it simple, just indent more */
+    & li > ul,
+    & li > ol {
+      @apply mt-3 ml-2 pl-4;
+    }
+    /* List Item Content */
+    & li {
+      @apply pl-1;
+      /* Makes sure paragraphs inside lists don't break the spacing */
+      & p {
+        @apply my-0;
+      }
+    }
     /* Blockquote */
     & blockquote {
-      @apply my-10 p-6 rounded-2xl;
-      background: linear-gradient(
-        90deg,
-        rgba(99, 102, 241, 0.06) 0%,
-        transparent 60%
-      );
-      border-left: 4px solid theme("colors.green.500");
-      font-style: italic;
-      /* color: theme("colors.zinc.800"); */
-      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
-      transform-origin: center;
+      @apply my-8 p-7 rounded-r-xl bg-zinc-50 dark:bg-zinc-900;
+      border-left: 4px solid theme("colors.orange.500");
+      & :first-child {
+        @apply mt-0;
+      }
     }
     & blockquote p {
-      @apply m-0 text-lg;
+      @apply m-0 text-xl italic leading-relaxed;
     }
-
     /* Code */
     & code {
       @apply font-mono text-sm px-2 py-0.5 rounded-md bg-zinc-100 dark:bg-zinc-800 text-pink-600 dark:text-pink-400;
@@ -138,7 +138,6 @@
       @apply bg-transparent px-0 py-0 rounded-none;
       white-space: pre;
     }
-
     /* Media */
     & img,
     /* & svg, */
@@ -158,21 +157,50 @@
     & img:focus,
     /* & svg:focus, */
     & video:focus {
-      @apply outline-none ring-2 ring-indigo-300 dark:ring-indigo-600 rounded-lg;
+      @apply outline-none ring-2 ring-green-300 dark:ring-green-600 rounded-lg;
     }
-    /* SEO/performance: add loading="lazy" to <img> */
-    & mjx-container.MathJax[jax="SVG"] svg {
-      display: inline;
+
+    & mjx-container {
+      /* 1. Theme & Typography */
+      @apply text-inherit!;
+      display: inline-grid;
+      vertical-align: middle;
+
+      /* 2. Layout Stability */
+      line-height: 0;
+      @apply outline-none transition-colors duration-200;
     }
+
+    & mjx-container[display="true"] {
+      /* 3. Responsive Handling */
+      @apply my-6 py-5 block w-full overflow-x-auto overflow-y-hidden;
+      min-width: 100%;
+      /* Centering and scrollbar styling */
+      text-align: center;
+      scrollbar-width: thin;
+      scrollbar-color: var(--vp-c-brand-1) transparent;
+    }
+
+    /* 4. SVG Optimization */
+    & mjx-container > svg {
+      @apply inline-block;
+      /* shrink-0 */
+      /* Prevents math from stretching beyond container width */
+      /* max-width: 100%; */
+      margin: 0 auto;
+    }
+    & .table-of-contents {
+      & ul {
+        @apply list-disc list-inside ml-4;
+      }
+      /* & a {
+        @apply text-green-500 hover:underline;
+      } */
+    }
+
     & figcaption {
       @apply text-center text-sm text-zinc-500 mt-3 italic;
     }
-
-    & .svg-icon {
-      @apply inline-block align-middle fill-current text-zinc-700 dark:text-zinc-300;
-      max-height: 2.25rem;
-    }
-
     /* Responsive embeds */
     & .embed-responsive {
       position: relative;
@@ -192,7 +220,6 @@
       height: 100%;
       border: 0;
     }
-
     /* YouTube */
     & .youtube {
       @apply my-8;
@@ -213,7 +240,6 @@
     & .youtube .yt-thumb:hover .yt-play {
       transform: scale(1.08);
     }
-
     /* Google embed */
     & .google-embed {
       @apply my-8 rounded-xl overflow-hidden border border-zinc-100 dark:border-zinc-800 shadow-sm bg-white dark:bg-zinc-950;
@@ -227,71 +253,95 @@
     & .google-embed iframe:focus {
       @apply ring-2 ring-indigo-300 dark:ring-indigo-600;
     }
-
-    & .table-container {
-      @apply w-full overflow-x-auto rounded-xl border border-zinc-700/50 my-8;
-      backdrop-filter: blur(12px); /* Glassmorphism */
+    /* Tables */
+    & table {
+      scrollbar-color: theme(--color-link-dark) theme(--color-zinc-600);
       scrollbar-width: thin;
-      scrollbar-color: theme("colors.green.600") transparent;
-    }
-
-    /* 2. THE TABLE CORE */
-    & table,
-    .table-full {
-      /* min-w-full fills the container; w-max allows expansion for scroll */
-      @apply min-w-full w-max border border-separate border-spacing-0 text-sm transition-all;
-
+      scrollbar-highlight-color: theme(--color-link);
+      @apply block w-full scroll-smooth rounded-lg my-8 text-sm;
+      overflow-x: auto;
+      box-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.1),
+        0 0px 20px rgba(0, 0, 0, 0.05);
       & thead {
-        @apply dark:bg-foreground bg-foreground-dark;
-        & th {
-          @apply py-4 px-6 border dark:border-background-dark text-left font-bold uppercase tracking-widest text-foreground dark:text-foreground-dark;
-          font-size: 0.7rem;
-          border-bottom: 1px solid theme(--color-green-500);
-        }
+        @apply bg-zinc-800 dark:bg-zinc-900;
       }
-
+      & th {
+        @apply py-3 px-4 text-left font-semibold text-white;
+        font-size: 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      }
       & td {
-        @apply py-4 px-6 border border-zinc-800/50;
-      }
-
-      & tr:last-child td {
-        @apply border-b-0;
-      }
-
-      /* Modern Hover State */
-      & tr:hover td {
-        @apply bg-white/3 text-white;
+        @apply py-3 px-4 border-b border-zinc-700;
+        transition: background-color 0.3s ease;
+        &:hover {
+          @apply bg-zinc-700;
+        }
       }
     }
-
-    /* 3. RESPONSIVE FLEX (Mobile Cards) */
+    .table {
+      @apply w-full scroll-smooth border-collapse rounded-lg my-8 text-sm;
+      box-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.1),
+        0 0px 20px rgba(0, 0, 0, 0.05);
+      & thead {
+        @apply bg-zinc-800 dark:bg-zinc-900;
+      }
+      & th {
+        @apply py-3 px-4 text-left font-semibold text-white;
+        font-size: 1rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      }
+      & td {
+        @apply py-3 px-4 border-b border-zinc-700 text-right;
+        transition: background-color 0.3s ease;
+        &:hover {
+          @apply bg-zinc-700;
+          cursor: pointer;
+        }
+      }
+    }
     @media (max-width: 640px) {
-      & .table-flex {
-        @apply block border-none bg-transparent shadow-none;
-
-        & thead {
-          @apply hidden;
-        }
-        & tbody {
-          @apply space-y-4 block;
-        }
-
+      .table {
+        @apply block w-full;
+        & tbody,
+        & th,
+        & td,
         & tr {
-          @apply block rounded-xl border border-zinc-700 bg-zinc-900/80 p-2;
+          @apply block w-full;
         }
-
+        & tr {
+          margin-bottom: 0.75rem;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+          display: flex;
+          flex-direction: column;
+        }
+        & th {
+          display: table-header-group;
+          @apply mb-2;
+        }
         & td {
-          @apply flex justify-between items-center px-4 py-3 border-none text-right;
-
-          &::before {
-            content: attr(data-label);
-            @apply font-bold text-zinc-500 text-[10px] uppercase tracking-tighter text-left;
-            flex: 1;
-          }
+          display: flex;
+          justify-content: space-between;
+          padding: 0.6rem 1rem;
+          position: relative;
+          text-align: right;
+        }
+        & td::before {
+          content: attr(data-label);
+          font-weight: 600;
+          margin-right: 0.75rem;
+          color: theme("colors.zinc.600");
+          position: absolute;
+          left: 0;
+          width: 50%;
         }
       }
-    }
 
+      mjx-container[display="true"] {
+        @apply py-3; /* Slight scale down on mobile */
+      }
+    }
     /* Buttons */
     & button {
       @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-semibold bg-zinc-900 text-white shadow-md hover:-translate-y-0.5 transition transform duration-200 ease-out;
@@ -299,7 +349,6 @@
     & button:active {
       transform: translateY(0.5px) scale(0.998);
     }
-
     /* HR */
     & hr {
       border: 0;
@@ -312,12 +361,10 @@
       );
       margin: 3.5rem 0;
     }
-
     /* Inputs */
     & input[type="checkbox"] {
       @apply w-5 h-5 rounded-md border-zinc-300 text-indigo-600 focus:ring-indigo-500 dark:bg-zinc-800 dark:border-zinc-700;
     }
-
     /* Reveal animation */
     & .reveal {
       opacity: 0;
@@ -338,7 +385,6 @@
       opacity: 1;
       transform: none;
     }
-
     /* Meta */
     & .meta {
       @apply text-sm text-zinc-500 dark:text-zinc-400 mb-4 flex gap-4 items-center flex-wrap;
@@ -346,21 +392,6 @@
     & .meta time {
       @apply font-medium;
     }
-    & .reading-time {
-      @apply ml-1 text-zinc-400;
-    }
-
-    /* Size variants */
-    &.prose-sm {
-      font-size: 0.9375rem;
-    }
-    &.prose-lg {
-      font-size: 1.0625rem;
-    }
-    &.prose-xl {
-      font-size: 1.125rem;
-    }
-
     /* KaTeX */
     & .katex {
       font-size: 1rem;
@@ -393,32 +424,61 @@
       border-radius: 0.25rem;
       background: rgba(99, 102, 241, 0.03);
     }
+    .question {
+      @apply text-orange-500 font-bold text-xl;
+    }
+    .ans-mark {
+      @apply text-green-500 font-bold text-lg;
+    }
   } /* end .prose */
 
-  /* Explicit dark-mode override using both .dark and custom variant */
-  .dark .prose,
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose {
-    color: theme("colors.zinc.300");
-    background-color: theme("colors.zinc.950");
+  .prose .question-block {
+    /* Screen: Clean & Modern Card */
+    @apply my-10 overflow-hidden rounded-2xl border border-zinc-100 bg-white shadow-sm;
+    @apply dark:bg-zinc-900 dark:border-zinc-800 transition-all;
+    & .question-header {
+      @apply p-6 md:p-8 bg-orange-50/50 border-b border-zinc-100;
+      @apply dark:bg-orange-950/10 dark:border-zinc-800;
+      & h3,
+      & h4,
+      & h5 {
+        @apply m-0 mb-2 text-xl font-bold text-zinc-900 dark:text-zinc-50 flex items-center gap-3;
+        &::before {
+          content: "Q";
+          @apply flex-none flex items-center justify-center w-7 h-7 rounded-lg bg-orange-600 text-white text-xs font-black;
+        }
+      }
+    }
+    & .solution-area {
+      @apply p-6 md:p-8 text-zinc-700 dark:text-zinc-300 text-lg;
+      & .solution-label {
+        @apply mb-3 inline-block font-bold text-lg uppercase tracking-widest text-green-700 dark:text-green-400;
+      }
+    }
   }
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose h1,
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose h2,
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose h3 {
-    color: theme("colors.white");
+  /* Print-Friendly: Pure Text & Ink-Saver */
+  @media print {
+    .question-block {
+      @apply m-0! p-0! bg-transparent! border-none! shadow-none!;
+      page-break-inside: avoid;
+      margin-bottom: 2.5rem !important;
+    }
+    .question-header {
+      @apply bg-transparent! border-none! p-0! mb-2!;
+      & h3 {
+        @apply text-black! font-bold!;
+      }
+      & h3::before {
+        @apply border! border-black! bg-transparent! text-black! shadow-none!;
+      }
+    }
+    .solution-area {
+      @apply bg-transparent! border-none! p-0! mt-4! border-l-2! border-zinc-300! pl-5!;
+      & .solution-label {
+        @apply text-black! underline!;
+      }
+    }
   }
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose p {
-    color: theme("colors.zinc.300");
-  }
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose .katex .base {
-    color: theme("colors.zinc.200");
-  }
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose img,
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose svg,
-  :where([data-theme="dark"], [data-theme="dark"] *) .prose video {
-    background-color: theme("colors.zinc.950");
-    border-color: theme("colors.zinc.800");
-  }
-
   /* Print support */
   @media print {
     .prose {
@@ -463,5 +523,99 @@
     .prose .embed-responsive {
       display: none;
     } /* hide embeds in print */
+  }
+}
+/* Import Noto Symbols if not hosted locally */
+
+@layer components {
+  :where(.prose) .custom-container {
+    --container-color: theme("colors.slate.500");
+    --container-bg: theme("colors.slate.50/30");
+
+    @apply my-6 border-l-4 rounded-r-md shadow-sm block relative overflow-hidden transition-all;
+    @apply bg-(--container-bg) border-(--container-color);
+    padding-left: 3.2rem !important;
+
+    /* Specific logic for TOC */
+    &.toc {
+      --container-icon: "📂";
+      --container-color: theme("colors.indigo.500");
+      --container-bg: theme("colors.indigo.50/40");
+
+      .dark & {
+        --container-bg: theme("colors.indigo.900/10");
+      }
+    }
+
+    &::before {
+      content: var(--container-icon);
+      @apply absolute left-3 top-[1.1rem] text-xl opacity-80 leading-none;
+      font-family: "Noto Sans Symbols 2", "Apple Color Emoji", sans-serif;
+    }
+
+    .container-title {
+      @apply font-bold mt-0 mb-1 uppercase text-[11px] tracking-widest pt-4 pb-1 select-none;
+      color: var(--container-color);
+    }
+
+    .container-content {
+      @apply pb-4 pr-4 text-[0.95rem] leading-relaxed;
+
+      /* Optimize nested [[toc]] list */
+      :where(ul) {
+        @apply m-0 list-none p-0;
+      }
+      :where(li) {
+        @apply my-1;
+      }
+      :where(a) {
+        @apply no-underline hover:opacity-70 transition-opacity;
+      }
+    }
+
+    /* Collapsible Logic */
+    &.collapsible {
+      .container-title {
+        @apply cursor-pointer list-none flex items-center outline-none;
+        &::-webkit-details-marker {
+          display: none;
+        }
+      }
+
+      &::after {
+        content: "\25b8";
+        @apply absolute right-4 top-4 opacity-30 transition-transform duration-200;
+      }
+
+      &[open]::after {
+        @apply rotate-90;
+      }
+    }
+  }
+
+  /* Noto Unicode Mapping */
+  .note {
+    --container-icon: "\270e";
+    @apply bg-blue-50 border-blue-500 text-blue-900 dark:bg-blue-900/20 dark:text-blue-100;
+  }
+  .warning {
+    --container-icon: "\26a0";
+    @apply bg-amber-50 border-amber-500 text-amber-900 dark:bg-amber-900/20 dark:text-amber-100;
+  }
+  .example {
+    --container-icon: "\2726";
+    @apply bg-purple-50 border-purple-500 text-purple-900 dark:bg-purple-900/20 dark:text-purple-100;
+  }
+  .tip {
+    --container-icon: "\2714";
+    @apply bg-emerald-50 border-emerald-500 text-emerald-900 dark:bg-emerald-900/20 dark:text-emerald-100;
+  }
+  .info {
+    --container-icon: "\2139";
+    @apply bg-indigo-50 border-indigo-500 text-indigo-900 dark:bg-indigo-900/20 dark:text-indigo-100;
+  }
+  .danger {
+    --container-icon: "\2620";
+    @apply bg-rose-50 border-rose-500 text-rose-900 dark:bg-rose-900/20 dark:text-rose-100;
   }
 }

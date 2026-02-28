@@ -1,4 +1,4 @@
-export const FileExclude = [
+export const fileExclude = [
   "**/secret-*.md",
   "**/trash/**",
   "**/README.md",

@@ -61,7 +61,7 @@ function toggleDark() {
                 <!-- Logo -->
                 <div class="flex items-center gap-4 z-30">
                     <a :href="withBase('/')" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                        <img v-if="theme.logo" :src="withBase(theme.logo)" alt="Logo" class="h-8 w-auto" />
+                        <img v-if="theme.logo" :src="withBase(theme.logo)" alt="Logo" class="h-12! w-auto" />
                         <span class="sr-only" v-show="!isSearchOpen || !isMobile">
                             {{ site.title }}
                         </span>
@@ -113,7 +113,7 @@ function toggleDark() {
                         </div>
 
                     </div>
-                    <div class="flex items-center">
+                    <div class="flex items-center gap-2">
                         <div :class="[
                             'transition-all duration-300 ease-in-out flex items-center',
                             isSearchOpen ? 'w-[200px] sm:w-[300px]' : 'w-0 overflow-hidden opacity-0'
@@ -160,7 +160,7 @@ function toggleDark() {
                 class="flex items-center justify-between h-16 px-6 border-b border-slate-200 dark:border-slate-800 shrink-0">
                 <a :href="withBase('/')" class="flex items-center gap-3" @click="isMobileMenuOpen = false">
                     <img v-if="theme.logo" :src="withBase(theme.logo)" alt="Logo" class="h-8 w-auto" />
-                    <span class="font-bold text-xl tracking-tight dark:text-white">
+                    <span class="font-bold text-xs tracking-tight dark:text-white">
                         {{ site.title }}
                     </span>
                 </a>

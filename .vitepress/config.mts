@@ -19,8 +19,12 @@ export default defineConfig({
   },
   cleanUrls: true,
   rewrites: {
-    'posts/(.*)': '(.*)',
-    'bseb/(.*)': 'bseb/(.*)'
+    // Maps 'posts/my-article.md' to 'my-article.html'
+    'posts/:slug*': ':slug*',
+    // Keeps 'bihar-board/topic.md' as 'bihar-board/topic.html'
+    'bihar-board/:slug*': 'bihar-board/:slug*',
+    // Maps 'ncert/math.md' to 'math.html' (or keep it as /ncert/ if you prefer)
+    'ncert/:slug*': 'ncert/:slug*' 
   },
   markdown: {
     config: (md) => {
@@ -36,6 +40,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: "https://www.avnlearn.com" },
       { text: 'Bihar Board', link: '/bihar-board' },
+      { text: 'NCERT', link: '/ncert' },
     ],
 
     search: {

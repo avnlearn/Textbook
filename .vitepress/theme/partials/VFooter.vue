@@ -16,8 +16,8 @@
       <!-- Links (SEO Friendly) -->
       <nav class="flex gap-8">
         <a href="/" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Home</a>
-        <a href="/about" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">About</a>
-        <a href="/privacy" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Privacy</a>
+        <a href="/about-us" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">About US</a>
+        <a href="/privacy-policy" class="text-[10px] font-black uppercase tracking-widest text-slate-400 hover:text-blue-600 transition-colors">Privacy Policy</a>
       </nav>
 
     </div>
