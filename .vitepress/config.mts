@@ -1,66 +1,111 @@
+// config.mts
+import { loadEnv, type UserConfig } from 'vitepress'
 import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vitepress'
-import markdownItSubSup from "./lib/markdown-it-sub-sup";
-import markdownItFormatting from './lib/markdown-it-formatting';
+import { VitePWA } from 'vite-plugin-pwa'
+import markdownItSubSup from "./lib/markdown-it-sub-sup"
+import markdownItFormatting from './lib/markdown-it-formatting'
 import { googleServicesPlugin } from './plugins/google-services'
+import { generateMeta } from './lib/meta'
+import { generateFeed } from './lib/feed'
 
-export default defineConfig({
-  title: "AvN Learn: Comprehensive Ebooks for Bihar, NCERT, and CBSE",
-  description: "AvN Learn is your ultimate resource for academic success. Offering a wide range of ebooks tailored for Bihar Board, NCERT, and CBSE students, we provide model papers, previous year questions, and detailed examples. Our ebooks are designed to enhance your learning experience and help you excel in your exams. Join us today to access expert-curated content that aligns with your curriculum and boosts your confidence. AvN Learn: Where learning meets excellence!",
-  // base: '/Textbook/',
+const config: any = async ({ mode }: { mode: string }): Promise<UserConfig> => {
+  const env = loadEnv(mode, process.cwd(), '')
 
-  appearance: 'dark',
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-  ],
-  sitemap: {
-    hostname: "https://ebook.avnlearn.com"
-    // hostname: 'https://avnlearn.github.io/Textbook' // Replace with your production URL
-  },
-  cleanUrls: true,
-  rewrites: {
-    // Maps 'posts/my-article.md' to 'my-article.html'
-    'posts/:slug*': ':slug*',
-    // Keeps 'bihar-board/topic.md' as 'bihar-board/topic.html'
-    'bihar-board/:slug*': 'bihar-board/:slug*',
-    // Maps 'ncert/math.md' to 'math.html' (or keep it as /ncert/ if you prefer)
-    'ncert/:slug*': 'ncert/:slug*' 
-  },
-  markdown: {
-    config: (md) => {
-      // use more markdown-it plugins!
-      md.use(markdownItSubSup)
-      md.use(markdownItFormatting)
-    }
+  return {
+    title: "AvN Learn: Ebooks for Bihar, NCERT, and CBSE",
 
-  },
-  lastUpdated: true,
-  themeConfig: {
-    logo: "/assets/logo.o.svg",
-    nav: [
-      { text: 'Home', link: "https://www.avnlearn.com" },
-      { text: 'Bihar Board', link: '/bihar-board' },
-      { text: 'NCERT', link: '/ncert' },
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.ico' }],
+      ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+      ['meta', { name: 'theme-color', content: '#2563eb' }],
+      ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+      ['link', { rel: 'apple-touch-icon', href: 'apple-touch-icon.png' }]
     ],
 
-    search: {
-      provider: 'local'
-    }
-  },
-  srcDir: "docs",
-  srcExclude: ['**/README.md', '**/TODO.md'],
-  outDir: 'dist',
-  vite: {
-    plugins: [
-      tailwindcss()
-    ],
-    ssr: {
-      // Prevents "window is not defined" errors during build
-      noExternal: ['vue-pdf-embed', 'pdfjs-dist']
-    }
-  },
-  ...googleServicesPlugin({
-    gaId: 'G-NHCE9C7TQ3',
-    searchConsoleId: 'ftjLgS6JkV3lI2iH5fRAvHi88wGzNYuIuOUTDjwK3W8'
-  })
-})
+    sitemap: { hostname: env.VITE_HOSTNAME || "https://ebook.avnlearn.com" },
+    rewrites: {
+      // Maps 'posts/my-article.md' to 'my-article.html'
+      'posts/:slug*': ':slug*',
+      // Keeps 'bihar-board/topic.md' as 'bihar-board/topic.html'
+      'bihar-board/:slug*': 'bihar-board/:slug*',
+      // Maps 'ncert/math.md' to 'math.html' (or keep it as /ncert/ if you prefer)
+      'ncert/:slug*': 'ncert/:slug*'
+    },
+    lastUpdated: true,
+    themeConfig: {
+      logo: "/assets/logo.o.svg",
+      nav: [
+        { text: 'Home', link: "https://www.avnlearn.com" },
+        { text: 'Bihar Board', link: '/bihar-board' },
+        { text: 'NCERT', link: '/ncert' },
+      ],
+
+      search: {
+        provider: 'local'
+      }
+    },
+    transformHead: (context) => generateMeta(context),
+    buildEnd: (config) => generateFeed(config),
+
+    cleanUrls: true,
+    srcExclude: ['**/README.md', '**/TODO.md'],
+    srcDir: "docs",
+    outDir: 'dist',
+
+    markdown: {
+      config: (md) => {
+        md.use(markdownItSubSup)
+        md.use(markdownItFormatting)
+      }
+    },
+
+    vite: {
+      plugins: [
+        tailwindcss(),
+        VitePWA({
+          registerType: 'autoUpdate',
+          workbox: {
+            maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+            globPatterns: ['**/*.{js,css,html,svg,png}'],
+            runtimeCaching: [
+              {
+                urlPattern: ({ url }: { url: URL }) => url.pathname.endsWith('.pdf'),
+                handler: 'CacheFirst',
+                options: {
+                  cacheName: 'ebook-cache',
+                  expiration: { maxEntries: 100, maxAgeSeconds: 2592000 }
+                }
+              }
+            ]
+          }
+        })
+      ],
+      optimizeDeps: { include: ['mark.js/src/vanilla.js'] },
+      ssr: {
+        // CRITICAL: Tells Vite not to bundle these for the Node.js build
+        noExternal: ['vue-pdf-embed', 'pdfjs-dist']
+      },
+      build: {
+        chunkSizeWarningLimit: 3000,
+        rollupOptions: {
+          onwarn(warning, warn) {
+            if (warning.code === 'DYNAMIC_IMPORT_VAR') return
+            warn(warning)
+          },
+          output: {
+            manualChunks(id: string) {
+              if (id.includes('node_modules/pdfjs-dist')) return 'pdf-worker'
+            }
+          }
+        }
+      }
+    },
+
+    ...(googleServicesPlugin({
+      gaId: env.VITE_GA_ID || 'G-DEFAULT',
+      searchConsoleId: env.VITE_SEARCH_CONSOLE_ID || ''
+    }) as any)
+  }
+}
+
+export default config

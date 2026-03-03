@@ -6,7 +6,7 @@
       <!-- Branding & Copyright -->
       <div class="flex flex-col items-center md:items-start">
         <p class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 dark:text-slate-500">
-          © {{ new Date().getFullYear() }} My Company
+          © {{ new Date().getFullYear() }} AvN Learn
         </p>
         <p class="text-xs font-bold text-slate-900 dark:text-white mt-1 uppercase tracking-widest">
           All Rights Reserved

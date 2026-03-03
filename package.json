@@ -13,5 +13,10 @@
     "tailwindcss": "^4.1.18",
     "vitepress": "^2.0.0-alpha.16",
     "vue-pdf-embed": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "feed": "^5.2.0",
+    "vite-plugin-pwa": "^1.2.0"
   }
 }

@@ -33,7 +33,7 @@ watch(() => props.path, () => { currentPage.value = 1 })
         <h1 class="text-5xl font-black tracking-tighter text-slate-900 dark:text-white capitalize">
           {{ props.path?.replace('-', ' ') || 'Latest Updates' }}
         </h1>
-        <p class="text-slate-500 mt-2 font-medium">Educational resources and board news.</p>
+        <p class="text-slate-500 dark:text-slate-400 mt-2 font-medium">Educational resources and board news.</p>
       </div>
       <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full shrink-0">
         {{ filteredPosts.length }} Articles
