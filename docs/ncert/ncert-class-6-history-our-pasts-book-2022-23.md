@@ -10,6 +10,8 @@ tags:
     History Book 2022-23,
     NCERT 6th History Solutions,
   ]
+date: 02-02-2026
 layout: post
-pdf: /ncert/cl6/2022-23/math.pdf
+image: /ncert/class-6/2022-23/history-our-past-hindi.jpg
+pdf: /ncert/class-6/2022-23/our-pasts-1-hindi.pdf
 ---

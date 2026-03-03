@@ -10,6 +10,8 @@ tags:
     Hindi Medium Math Class 8,
     Class 8 Math Syllabus,
   ]
+date: 04-02-2026
 layout: post
+image: /ncert/class-8/2022-23/math-hindi.jpg
 pdf: /ncert/class-8/2022-23/math-hindi.pdf
 ---

@@ -10,6 +10,8 @@ tags:
     Hindi Medium Math Class 11,
     Class 11 Math Syllabus,
   ]
+date: 07-02-2026
 layout: post
+image: /ncert/class-11/2022-23/math-hindi.jpg
 pdf: /ncert/class-11/2022-23/math-hindi.pdf
 ---

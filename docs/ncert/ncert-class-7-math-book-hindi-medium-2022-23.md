@@ -10,6 +10,8 @@ tags:
     Hindi Medium Math Class 7,
     Class 7 Math Syllabus,
   ]
+date: 03-02-2026
 layout: post
+image: /ncert/class-7/2022-23/math-hindi.jpg
 pdf: /ncert/class-7/2022-23/math-hindi.pdf
 ---

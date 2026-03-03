@@ -10,6 +10,8 @@ tags:
     Class 6 Bhugol NCERT 2022-23,
     NCERT Social Science Hindi,
   ]
+date: 02-02-2026
 layout: post
-pdf: /ncert/class-6/2022-23/math.pdf
+image: /ncert/class-6/2022-23/the-earth-our-habitat-hindi.jpg
+pdf: /ncert/class-6/2022-23/the_earth-our_habitat-hindi.pdf
 ---

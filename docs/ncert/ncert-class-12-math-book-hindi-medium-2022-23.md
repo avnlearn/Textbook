@@ -10,6 +10,7 @@ tags:
     Hindi Medium Math Class 12,
     Class 12 Math Syllabus,
   ]
+date: 08-02-2026
 layout: post
 pdf: /ncert/class-12/2022-23/math-hindi.pdf
 ---

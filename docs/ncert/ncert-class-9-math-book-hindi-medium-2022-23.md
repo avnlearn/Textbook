@@ -10,6 +10,8 @@ tags:
     Hindi Medium Math Class 9,
     Class 9 Math Syllabus,
   ]
+date: 05-02-2026
 layout: post
+image: /ncert/class-9/2022-23/math-hindi.jpg
 pdf: /ncert/class-9/2022-23/math-hindi.pdf
 ---

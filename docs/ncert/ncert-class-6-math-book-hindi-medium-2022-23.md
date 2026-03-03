@@ -10,6 +10,8 @@ tags:
     Hindi Medium Math Class 6,
     Class 6 Math Syllabus,
   ]
+date: 02-02-2026
 layout: post
+image: /ncert/class-6/2022-23/math-hindi.jpg
 pdf: /ncert/class-6/2022-23/math-hindi.pdf
 ---
