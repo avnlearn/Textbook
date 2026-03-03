@@ -16,10 +16,10 @@ layout: page
 
 ## Class 6
 
-[Class 6](./ncert-class-6)
+[Class 6](./ncert-class-6-books-pdf-download.md)
 
 
-<VButton href="">
+<VButton href="./ncert-class-6-books-pdf-download.md">
 Class 6
 </VButton>
 
