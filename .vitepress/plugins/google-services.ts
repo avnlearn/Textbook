@@ -31,6 +31,7 @@ export const googleServicesPlugin = (options: GoogleOptions): Partial<UserConfig
         if (gaId) {
             // 2. Initial Consent & Script Loader
             head.push(['script', { async: '', src: `https://www.googletagmanager.com/gtag/js?id=${gaId}` }]);
+            /*
             head.push(['script', {}, `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -44,8 +45,16 @@ export const googleServicesPlugin = (options: GoogleOptions): Partial<UserConfig
       });
 
       gtag('js', new Date());
-      gtag('config', '${gaId}', { 'send_page_view': false }); // Manual tracking for SPA
+      gtag('config', '${gaId}', { 'send_page_view': false }); 
     `]);
+    */
+            head.push(['script', {}, `
+                window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${gaId}');
+                `])
         }
 
     }
