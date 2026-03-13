@@ -16,11 +16,16 @@ layout: page
 
 ## Class 6
 
-[Class 6](./ncert-class-6-books-pdf-download.md)
-
-
-<VButton href="./ncert-class-6-books-pdf-download.md">
+<VButton href="./ncert-class-6-books-pdf-download.md" variant="primary">
 Class 6
+</VButton>
+
+<VButton href="./ncert-class-6-books-pdf-download.md" variant="primary">
+Class 7
+</VButton>
+
+<VButton href="./ncert-class-6-books-pdf-download.md" variant="primary">
+Class 8
 </VButton>
 
 <PostList path="ncert" postsPerPage=4 />

@@ -1,6 +1,6 @@
 {
-    "name": "Web Application",
-    "short_name": "App",
+    "name": "AvN Learn",
+    "short_name": "A",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

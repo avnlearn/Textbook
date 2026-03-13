@@ -12,6 +12,7 @@ export default {
     app.component('PostList', PostList)
     app.component('PDFViewer', PDFViewer)
     app.component("VButton", VButton)
+    app.component("VButtons", VButtons)
   }
 } satisfies Theme
 

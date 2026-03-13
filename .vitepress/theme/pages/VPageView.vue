@@ -1,4 +1,5 @@
-<!-- VPostView.vue -->
+<!-- VPageView.vue -->
+
 <script setup lang="ts">
 import { useData, withBase } from "vitepress";
 import { computed } from "vue";
@@ -17,7 +18,7 @@ const jsonLd = computed(() => ({
       "@type": "BlogPosting",
       "headline": frontmatter.value.title,
       "description": frontmatter.value.description,
-      "image": frontmatter.value.image ? `https://ebook.avnlearn.com${withBase(frontmatter.value.image)}` : undefined,
+      "image": frontmatter.value.image ? `https://ebook.avnlearn.com/${withBase(frontmatter.value.image)}` : undefined,
       "datePublished": frontmatter.value.date ? new Date(frontmatter.value.date).toISOString() : undefined,
       "author": { "@type": "Organization", "name": "AvN Learn" }
     }
@@ -30,7 +31,7 @@ const jsonLd = computed(() => ({
 
   <article class="max-w-7xl mx-auto px-6 py-12 lg:py-20 animate-in fade-in duration-700">
     <header class="mb-12">
-      
+
       <!-- [NEW] Breadcrumbs Component replaced manual nav -->
       <Breadcrumbs />
 
@@ -38,7 +39,8 @@ const jsonLd = computed(() => ({
       <div class="flex items-center gap-4 mb-6">
         <time v-if="frontmatter.date"
           class="text-[10px] font-bold uppercase tracking-[0.2em] text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded">
-          {{ new Date(frontmatter.date).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' }) }}
+          {{ new Date(frontmatter.date).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })
+          }}
         </time>
         <span v-if="frontmatter.category"
           class="text-[10px] font-black uppercase tracking-widest text-slate-400 border-l border-slate-200 dark:border-slate-800 pl-4">
@@ -46,7 +48,8 @@ const jsonLd = computed(() => ({
         </span>
       </div>
 
-      <h1 class="text-4xl sm:text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.05] mb-8 tracking-tighter">
+      <h1
+        class="text-4xl sm:text-5xl lg:text-7xl font-black text-slate-900 dark:text-white leading-[1.05] mb-8 tracking-tighter">
         {{ frontmatter.title }}
       </h1>
 
@@ -57,13 +60,9 @@ const jsonLd = computed(() => ({
       </div>
     </header>
 
-    <div class="prose max-w-none">
+    <div class="max-w-none">
       <Content />
-      <PDFViewer v-if="frontmatter.pdf" :url="frontmatter.pdf" :hrefs="frontmatter.links" class="mt-12" />
     </div>
 
-    <footer class="mt-20">
-      <PostNav />
-    </footer>
   </article>
 </template>

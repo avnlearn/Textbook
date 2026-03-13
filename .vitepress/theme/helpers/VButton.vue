@@ -39,15 +39,15 @@ withDefaults(defineProps<Props>(), {
 
 /* Variants - Using Tailwind v4 syntax */
 .primary {
-  @apply bg-blue-600 text-white shadow-lg shadow-blue-500/20 hover:bg-blue-500 hover:shadow-blue-500/40;
+  @apply bg-blue-600 text-white shadow-lg shadow-blue-500/20 hover:bg-blue-500 hover:shadow-blue-500/40 px-3 py-1;
 }
 
 .secondary {
-  @apply bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700;
+  @apply bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-white hover:bg-slate-200 dark:hover:bg-slate-700 px-3 py-1;
 }
 
 .outline {
-  @apply border-2 border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:border-blue-500 hover:text-blue-600;
+  @apply border-2 border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-400 hover:border-blue-500 hover:text-blue-600 px-3 py-1;
 }
 
 .ghost {
