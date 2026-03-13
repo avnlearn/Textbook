@@ -1,13 +1,17 @@
 @reference "./style.css";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
 
 @layer components {
   .prose {
-    @apply text-base leading-relaxed mx-auto;
+    /* @apply text-base leading-relaxed mx-auto; */
+    /* @apply text-base mx-auto; */
+    @apply font-sans;
     width: 100%;
     /* max-width: 70ch; */
     /* padding: 1.25rem; */
-    line-height: 1.75;
+    /* font-family: "Noto Sans", sans-serif; */
+    font-optical-sizing: auto;
+    /* line-height: 1.75; */
     font-variant-ligatures: common-ligatures;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -50,42 +54,11 @@
     & p {
       @apply mb-6 text-lg md:text-base;
     }
-    /* Links */
-    & a {
-      @apply inline-block text-green-800 dark:text-green-400 font-medium no-underline relative;
-      text-decoration-skip-ink: auto;
-    }
-    & a::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -0.18em;
-      width: 100%;
-      height: 2px;
-      background: linear-gradient(
-        90deg,
-        theme("colors.green.500"),
-        theme("colors.green.400")
-      );
-      transform-origin: left center;
-      transform: scaleX(0.12);
-      transition: transform 0.22s cubic-bezier(0.2, 0.9, 0.2, 1);
-      border-radius: 2px;
-      opacity: 0.95;
-    }
-    & a:hover::after,
-    & a:focus::after {
-      transform: scaleX(1);
-    }
-    & a:focus {
-      outline: none;
-      box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
-      border-radius: 4px;
-    }
+
     /* List Style */
     & ul,
     & ol {
-      @apply my-6 space-y-4;
+      @apply my-6 space-y-4 ml-3;
     }
     /* Simple Unordered List */
     & ul {
@@ -124,19 +97,6 @@
     }
     & blockquote p {
       @apply m-0 text-xl italic leading-relaxed;
-    }
-    /* Code */
-    & code {
-      @apply font-mono text-sm px-2 py-0.5 rounded-md bg-zinc-100 dark:bg-zinc-800 text-pink-600 dark:text-pink-400;
-      word-break: break-word;
-    }
-    & pre {
-      @apply my-8 p-6 rounded-2xl overflow-auto font-mono text-sm leading-6 bg-zinc-900 text-zinc-100 border border-zinc-800;
-      box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
-    }
-    & pre code {
-      @apply bg-transparent px-0 py-0 rounded-none;
-      white-space: pre;
     }
     /* Media */
     & img,
@@ -177,8 +137,7 @@
       min-width: 100%;
       /* Centering and scrollbar styling */
       text-align: center;
-      scrollbar-width: thin;
-      scrollbar-color: var(--vp-c-brand-1) transparent;
+      @apply scrollbar-green;
     }
 
     /* 4. SVG Optimization */
@@ -188,14 +147,6 @@
       /* Prevents math from stretching beyond container width */
       /* max-width: 100%; */
       margin: 0 auto;
-    }
-    & .table-of-contents {
-      & ul {
-        @apply list-disc list-inside ml-4;
-      }
-      /* & a {
-        @apply text-green-500 hover:underline;
-      } */
     }
 
     & figcaption {
@@ -255,9 +206,7 @@
     }
     /* Tables */
     & table {
-      scrollbar-color: theme(--color-link-dark) theme(--color-zinc-600);
-      scrollbar-width: thin;
-      scrollbar-highlight-color: theme(--color-link);
+      @apply scrollbar-green;
       @apply block w-full scroll-smooth rounded-lg my-8 text-sm;
       overflow-x: auto;
       box-shadow:
@@ -444,8 +393,14 @@
       & h5 {
         @apply m-0 mb-2 text-xl font-bold text-zinc-900 dark:text-zinc-50 flex items-center gap-3;
         &::before {
-          content: "Q";
-          @apply flex-none flex items-center justify-center w-7 h-7 rounded-lg bg-orange-600 text-white text-xs font-black;
+          content: "\2164"; /* Example: Roman Numeral IV or use \003F for a standard ? */
+          content: "?"; /* Simple and most reliable across fonts */
+
+          @apply flex-none flex items-center justify-center w-7 h-7 rounded-lg;
+          @apply bg-orange-600 text-white text-sm font-black;
+
+          /* Optional: ensure it doesn't look like a standard emoji on mobile */
+          font-family: ui-sans-serif, system-ui, sans-serif;
         }
       }
     }
@@ -456,29 +411,7 @@
       }
     }
   }
-  /* Print-Friendly: Pure Text & Ink-Saver */
-  @media print {
-    .question-block {
-      @apply m-0! p-0! bg-transparent! border-none! shadow-none!;
-      page-break-inside: avoid;
-      margin-bottom: 2.5rem !important;
-    }
-    .question-header {
-      @apply bg-transparent! border-none! p-0! mb-2!;
-      & h3 {
-        @apply text-black! font-bold!;
-      }
-      & h3::before {
-        @apply border! border-black! bg-transparent! text-black! shadow-none!;
-      }
-    }
-    .solution-area {
-      @apply bg-transparent! border-none! p-0! mt-4! border-l-2! border-zinc-300! pl-5!;
-      & .solution-label {
-        @apply text-black! underline!;
-      }
-    }
-  }
+
   /* Print support */
   @media print {
     .prose {
@@ -525,97 +458,427 @@
     } /* hide embeds in print */
   }
 }
-/* Import Noto Symbols if not hosted locally */
 
 @layer components {
-  :where(.prose) .custom-container {
-    --container-color: theme("colors.slate.500");
-    --container-bg: theme("colors.slate.50/30");
-
-    @apply my-6 border-l-4 rounded-r-md shadow-sm block relative overflow-hidden transition-all;
-    @apply bg-(--container-bg) border-(--container-color);
-    padding-left: 3.2rem !important;
-
-    /* Specific logic for TOC */
-    &.toc {
-      --container-icon: "📂";
-      --container-color: theme("colors.indigo.500");
-      --container-bg: theme("colors.indigo.50/40");
-
-      .dark & {
-        --container-bg: theme("colors.indigo.900/10");
+  .prose {
+    /* 1. Inline Code - Cleaner contrast */
+    & :not(pre) > code {
+      @apply font-mono text-[0.88em] px-1.5 py-0.5 rounded-md border;
+      @apply bg-zinc-100 text-zinc-900 border-zinc-200 dark:bg-zinc-800/50 dark:text-zinc-200 dark:border-zinc-700 shadow-xs;
+      &::before,
+      &::after {
+        content: none;
       }
     }
 
-    &::before {
-      content: var(--container-icon);
-      @apply absolute left-3 top-[1.1rem] text-xl opacity-80 leading-none;
-      font-family: "Noto Sans Symbols 2", "Apple Color Emoji", sans-serif;
+    /* 2. Unified Container */
+    & div[class*="language-"],
+    & .vp-code-group {
+      @apply relative my-8 overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-950 dark:shadow-green-400;
     }
 
-    .container-title {
-      @apply font-bold mt-0 mb-1 uppercase text-[11px] tracking-widest pt-4 pb-1 select-none;
-      color: var(--container-color);
+    /* --- CODE GROUP TABS --- */
+    & .vp-code-group {
+      & .tabs {
+        @apply flex border-b border-zinc-200 bg-zinc-50/50 dark:border-zinc-800 dark:bg-zinc-900/50 overflow-x-auto;
+        & input {
+          @apply appearance-none absolute opacity-0 w-0 h-0;
+        }
+        & label {
+          @apply relative cursor-pointer whitespace-nowrap px-5 py-3 text-[11px] font-bold uppercase tracking-wider transition-all duration-200;
+          @apply text-zinc-500 hover:text-zinc-800 dark:hover:text-zinc-100;
+        }
+        & input:checked + label {
+          /* Tailwind 4 var reference */
+          @apply text-indigo-600 dark:text-indigo-400 bg-white dark:bg-zinc-800/80 shadow-[inset_0_-2px_0_0_var(--color-indigo-500)];
+        }
+      }
+      & .blocks > div {
+        @apply hidden opacity-0 translate-y-2 transition-all duration-300 ease-out;
+        &.active {
+          @apply block opacity-100 translate-y-0;
+        }
+      }
+      & div[class*="language-"] {
+        @apply m-0 p-0 border-none shadow-none rounded-none;
+        & .lang {
+          @apply hidden;
+        }
+      }
     }
 
-    .container-content {
-      @apply pb-4 pr-4 text-[0.95rem] leading-relaxed;
+    /* --- SHIKI & FEATURES --- */
+    & div[class*="language-"] {
+      @apply scrollbar-green;
 
-      /* Optimize nested [[toc]] list */
-      :where(ul) {
-        @apply m-0 list-none p-0;
+      & .lang {
+        @apply absolute top-0 dark:text-green-200 text-green-800 font-bold w-full px-2 mx-2 uppercase;
       }
-      :where(li) {
-        @apply my-1;
-      }
-      :where(a) {
-        @apply no-underline hover:opacity-70 transition-opacity;
-      }
-    }
 
-    /* Collapsible Logic */
-    &.collapsible {
-      .container-title {
-        @apply cursor-pointer list-none flex items-center outline-none;
-        &::-webkit-details-marker {
-          display: none;
+      /* Syntax Colors & Scroll */
+      & pre {
+        @apply m-0 pt-12 pb-6 px-0 overflow-auto font-mono text-[13.5px];
+        color: var(--shiki-light, inherit);
+        background-color: var(--shiki-light-bg, inherit);
+        @variant dark {
+          color: var(--shiki-dark, inherit);
+          background-color: var(--shiki-dark-bg, inherit);
+        }
+
+        & span {
+          color: var(--shiki-light, inherit);
+        }
+        @variant dark {
+          & span {
+            color: var(--shiki-dark, inherit) !important;
+          }
         }
       }
 
-      &::after {
-        content: "\25b8";
-        @apply absolute right-4 top-4 opacity-30 transition-transform duration-200;
+      & .line {
+        @apply relative z-10  min-h-[1.5rem] px-6 w-full transition-opacity duration-300;
       }
 
-      &[open]::after {
-        @apply rotate-90;
+      /* --- SPECIAL LINE MARKERS --- */
+      & .highlighted {
+        @apply w-full inline-flex items-center  dark:bg-indigo-500/5 bg-indigo-500/20 border-l-[3px] border-indigo-500/50 pointer-events-none z-0;
+      }
+      & .highlighted.error {
+        @apply bg-red-500/30 dark:bg-red-500/10 border-l-[3px] border-red-500;
+      }
+      & .highlighted.warning {
+        @apply bg-amber-500/30 dark:bg-amber-500/10 border-l-[3px] border-amber-500;
+      }
+
+      /* Diff */
+      & .diff {
+        @apply absolute left-0 w-full border-l-[3px] pointer-events-none z-0;
+      }
+      & .diff.add {
+        @apply bg-emerald-500/30 dark:bg-emerald-500/10 border-emerald-500 flex items-center;
+      }
+      & .diff.remove {
+        @apply bg-rose-500/30 dark:bg-rose-500/10 border-rose-500 opacity-60 flex items-center;
+      }
+      & .line.diff::before {
+        @apply absolute left-1.5 font-bold opacity-30;
+      }
+      & .line.diff.add::before {
+        content: "+";
+        @apply text-emerald-500 font-bold;
+      }
+      & .line.diff.remove::before {
+        content: "-";
+        @apply text-rose-200 font-bold text-xl;
+      }
+
+      /* Focus Mode - Cleaned logic */
+      & .has-focused-lines .line:not(.has-focus) {
+        @apply opacity-30 backdrop-blur-sm grayscale-[0.5];
+      }
+
+      & .has-focused-lines .line:not(.has-focus):hover {
+        @apply backdrop-blur-none opacity-100;
+      }
+      & .line.has-focus {
+        @apply opacity-100 blur-none scale-[1.01] origin-left font-bold brightness-100;
+      }
+
+      /* --- LINE NUMBERS --- */
+      &.line-numbers-mode {
+        @apply pl-12;
+        & .line-numbers-wrapper {
+          @apply absolute top-1 left-0 h-full w-10 border-r border-zinc-200 dark:border-zinc-800 bg-zinc-50/30 dark:bg-zinc-900/20 py-14 text-right font-mono text-xs text-zinc-400 dark:text-zinc-400/60 select-none;
+          line-height: 0.86;
+          z-index: 1;
+        }
+        & .line-number {
+          @apply block pr-3;
+        }
+      }
+
+      /* Copy Button - Refined UI */
+      & > button {
+        @apply absolute right-3 top-3 flex items-center gap-2 px-2.5 py-1.5 rounded-md z-30 opacity-0 transition-all duration-200 translate-y-1 border border-zinc-200 bg-white text-[10px] font-bold uppercase tracking-tight text-zinc-500 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-400;
+        /* &::before {
+          content: "📋";
+          @apply w-3 h-3 block text-xl;
+          background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org' fill='none' stroke='currentColor' stroke-width='3' viewBox='0 0 24 24'%3E%3Crect width='8' height='4' x='8' y='2' rx='1'/%3E%3Cpath d='M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2'/%3E%3C/svg%3E")
+            no-repeat center / contain;
+        } */
+        &::after {
+          content: "📋 Copy";
+          @apply text-xs;
+        }
+        &.copied {
+          @apply border-emerald-500 text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-500/10 opacity-100! translate-y-0!;
+          &::after {
+            content: "Done!";
+          }
+        }
+      }
+      &:hover > button {
+        @apply opacity-100 translate-y-0;
       }
     }
   }
+}
 
-  /* Noto Unicode Mapping */
-  .note {
-    --container-icon: "\270e";
-    @apply bg-blue-50 border-blue-500 text-blue-900 dark:bg-blue-900/20 dark:text-blue-100;
+@layer components {
+  /* Targeted styles for GitHub Alerts and TOC inside .prose */
+  .prose {
+    /* --- 1. Global Link Styling (Animated Underline) --- */
+    & a:not(.table-of-contents a):not([class*="btn-"]):not([class*="px-5"]) {
+      @apply inline-block text-green-800 dark:text-green-400 font-medium no-underline relative;
+
+      &[rel~="noopener"][rel~="noreferrer"]::before {
+        content: "_↗";
+        @apply absolute -right-4 top-0 text-[10px] opacity-50;
+      }
+
+      &::after {
+        content: "";
+        @apply absolute left-0 w-full h-[2px] rounded-sm opacity-95 origin-left scale-x-[0.12] transition-transform duration-200;
+        bottom: -0.18em;
+        background: linear-gradient(
+          90deg,
+          theme("colors.green.500"),
+          theme("colors.green.400")
+        );
+      }
+      &:hover::after {
+        @apply scale-x-100;
+      }
+    }
+
+    /* --- 2. Shared Button Base --- */
+    /* DRY: Handles all common layout and interaction for button variations */
+    & a[class*="btn-"] {
+      @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-semibold no-underline! 
+             transition-all duration-200 active:scale-95;
+
+      /* Reset pseudo-elements if they accidentally inherit */
+      &::after {
+        display: none !important;
+      }
+    }
+
+    /* --- 3. Modifier Styles --- */
+    & a.btn-call-to-action {
+      @apply bg-linear-to-r from-green-600 to-emerald-500 text-white shadow-md hover:shadow-green-500/20 hover:-translate-y-0.5;
+    }
+
+    & a.btn-primary {
+      @apply bg-green-600 text-white hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-400;
+    }
+
+    & a.btn-outline {
+      @apply border-2 border-green-600 text-green-600 hover:bg-green-50 
+             dark:border-green-400 dark:text-green-400 dark:hover:bg-green-900/20;
+    }
+
+    & a.btn-ghost {
+      @apply text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800;
+    }
+
+    & a.btn-danger {
+      @apply bg-red-600 text-white hover:bg-red-700 dark:bg-red-500 dark:hover:bg-red-400;
+    }
+
+    & .btn-group {
+      @apply inline-flex flex-wrap rounded-xl overflow-hidden shadow-sm border border-zinc-200 dark:border-zinc-800;
+
+      /* Reset buttons inside groups */
+      & a[class*="btn-"] {
+        @apply rounded-none shadow-none border-none hover:translate-y-0 active:scale-100;
+      }
+    }
+
+    /* --- 5. Group Variations --- */
+
+    /* BAR: Horizontal row with dividers */
+    & .btn-g-bar {
+      @apply flex-row divide-x divide-zinc-200 dark:divide-zinc-800;
+    }
+
+    /* GRID: 2x2 or NxN layout */
+    & .btn-g-grid {
+      @apply grid grid-cols-2 divide-x divide-y divide-zinc-200 dark:divide-zinc-800;
+      /* Remove top border from first row and left border from first column via divide logic */
+    }
+
+    /* LIST: Vertical stack */
+    & .btn-g-list {
+      @apply flex-col divide-y divide-zinc-200 dark:divide-zinc-800 w-full max-w-xs;
+      & a[class*="btn-"] {
+        @apply justify-start px-6;
+      }
+    }
+
+    /* Active Highlight (Optional) */
+    & .btn-group a.active {
+      @apply bg-zinc-100 dark:bg-zinc-800 text-green-600 dark:text-green-400;
+    }
+
+    /* --- 2. GitHub Alerts & Custom Containers --- */
+    &
+      :where(
+        .info,
+        .note,
+        .tip,
+        .important,
+        .warning,
+        .danger,
+        .caution
+      ).custom-block {
+      @apply my-8 p-4 border-l-4 rounded-r-lg not-italic transition-all;
+
+      .custom-block-title {
+        @apply flex items-center gap-2 mb-2 font-bold uppercase text-sm tracking-wide;
+        &::before {
+          @apply mr-1 text-base;
+        }
+      }
+      p {
+        @apply my-0 leading-relaxed;
+      }
+    }
+
+    /* Variant Colors (v4 slash syntax for opacity) */
+    & :where(.info, .note).custom-block {
+      @apply border-blue-500 bg-blue-500/50 text-blue-900 dark:bg-blue-950/30 dark:text-blue-200;
+      .custom-block-title::before {
+        content: "ℹ️";
+      }
+    }
+    & .tip.custom-block {
+      @apply border-emerald-500 bg-emerald-500/50 text-emerald-900 dark:bg-emerald-950/30 dark:text-emerald-200;
+      .custom-block-title::before {
+        content: "💡";
+      }
+    }
+    & .warning.custom-block {
+      @apply border-amber-500 bg-amber-500/50 text-amber-900 dark:bg-amber-950/30 dark:text-amber-200;
+      .custom-block-title::before {
+        content: "⚠️";
+      }
+    }
+    & :where(.danger, .caution).custom-block {
+      @apply border-rose-500 bg-rose-500/50 text-rose-900 dark:bg-rose-950/30 dark:text-rose-200;
+      .custom-block-title::before {
+        content: "🛑";
+      }
+    }
+
+    /* --- 3. Optimized & Accessible Table of Contents --- */
+    .table-of-contents {
+      /* Standalone Card Style */
+      @apply my-10 p-6 rounded-2xl border transition-all;
+      @apply bg-slate-50/50 border-slate-200/60 dark:bg-white/5 dark:border-white/10;
+
+      &::before {
+        content: "On This Page";
+        @apply block mb-5 text-[11px] font-bold uppercase tracking-widest text-slate-400;
+      }
+
+      /* Nested Reset: Remove box if TOC is inside Details block */
+      & details.details & {
+        @apply m-0 p-6 bg-transparent border-none;
+        &::before {
+          content: none;
+        }
+      }
+
+      & ul {
+        @apply m-0 p-0 list-none space-y-1;
+        & li {
+          @apply m-0 p-0;
+          & a {
+            /* Large 44px Touch Target (UX Optimized) */
+            @apply block py-2.5 px-4 -mx-2 rounded-xl text-[14px] font-medium no-underline transition-all;
+            @apply text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-white;
+            @apply hover:bg-white dark:hover:bg-white/10;
+
+            &::after {
+              content: none !important;
+            } /* Reset global link style */
+          }
+          /* Hierarchy Guides */
+          & ul {
+            @apply mt-1 mb-2 ml-4 pl-4 border-l border-slate-200 dark:border-white/10;
+            & li a {
+              @apply py-1.5 text-[13px] font-normal text-slate-500;
+            }
+          }
+        }
+      }
+    }
+
+    /* --- 4. The Details Wrapper for TOC --- */
+    & details.custom-block.details {
+      @apply my-8 px-2 rounded-2xl border transition-all overflow-hidden;
+      @apply bg-slate-50/50 border-slate-200 dark:bg-white/5 dark:border-white/10;
+
+      & summary {
+        @apply cursor-pointer py-4 px-6 flex items-center gap-3 list-none outline-none;
+        @apply text-sm font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400;
+        @apply hover:bg-slate-100/50 dark:hover:bg-white/5 transition-colors;
+        &::before {
+          content: "→";
+          @apply transition-transform duration-300 text-indigo-500;
+        }
+      }
+      &[open] summary {
+        @apply border-b border-slate-200 dark:border-white/10;
+        &::before {
+          @apply rotate-90;
+        }
+      }
+    }
   }
-  .warning {
-    --container-icon: "\26a0";
-    @apply bg-amber-50 border-amber-500 text-amber-900 dark:bg-amber-900/20 dark:text-amber-100;
+}
+
+@utility scrollbar-green {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  /* Standards-track (Firefox) */
+  scrollbar-color: theme(--color-green-500) theme(--color-green-100);
+
+  @variant dark {
+    scrollbar-color: theme(--color-green-400) theme(--color-green-950);
   }
-  .example {
-    --container-icon: "\2726";
-    @apply bg-purple-50 border-purple-500 text-purple-900 dark:bg-purple-900/20 dark:text-purple-100;
+
+  /* WebKit (Chrome, Safari, Edge) */
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
   }
-  .tip {
-    --container-icon: "\2714";
-    @apply bg-emerald-50 border-emerald-500 text-emerald-900 dark:bg-emerald-900/20 dark:text-emerald-100;
+
+  &::-webkit-scrollbar-track {
+    background-color: theme(--color-green-100);
+    border-radius: 10px;
+
+    @variant dark {
+      background-color: theme(--color-green-950);
+    }
   }
-  .info {
-    --container-icon: "\2139";
-    @apply bg-indigo-50 border-indigo-500 text-indigo-900 dark:bg-indigo-900/20 dark:text-indigo-100;
-  }
-  .danger {
-    --container-icon: "\2620";
-    @apply bg-rose-50 border-rose-500 text-rose-900 dark:bg-rose-900/20 dark:text-rose-100;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: theme(--color-green-500);
+    border-radius: 10px;
+    border: 2px solid theme(--color-green-100);
+
+    @variant dark {
+      background-color: theme(--color-green-400);
+      border-color: theme(--color-green-950);
+    }
+
+    &:hover {
+      background-color: theme(--color-green-600);
+
+      @variant dark {
+        background-color: theme(--color-green-300);
+      }
+    }
   }
 }
