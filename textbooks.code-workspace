@@ -4,14 +4,4 @@
       "path": "."
     }
   ],
-  "settings": {
-    "tailwindCSS.includeLanguages": {
-			"vue": "html",
-			"markdown": "html"
-		},
-    "files.associations": {
-      "*.css": "tailwindcss"
-    },
-    "css.validate": false
-  }
 }
