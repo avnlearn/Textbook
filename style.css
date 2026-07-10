@@ -1,157 +1,172 @@
-/* Base Reset & Fonts */
+/* Reset and Base Styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif;
-  background-color: #fafafa;
-  color: #1a1a1a;
-  line-height: 1.5;
-  overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
 }
 
-/* Master Layout Grid */
+/* Split Screen Container */
 .welcome-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
 }
 
-/* Content Panel Layout */
+/* Left Side: Content Box */
 .content-side {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 2.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background-color: #ffffff;
 }
 
-/* Typography & Navigation Branding */
+/* Header & Logo */
 .logo {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: -0.05em;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #0f172a;
 }
 
 .logo span {
-  color: #4f46e5;
+    color: #2563eb;
 }
 
+/* Hero Content Styling */
 .hero-text {
-  margin: auto 0;
-  max-width: 540px;
+    max-width: 540px;
+    margin: auto 0;
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
-  margin-bottom: 1.25rem;
-  color: #111827;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    color: #0f172a;
 }
 
 .hero-text p {
-  font-size: 1.125rem;
-  color: #4b5563;
-  margin-bottom: 2rem;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 32px;
 }
 
-/* Button Component Styles */
+/* Call to Action Buttons */
 .cta-group {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .btn {
-  display: inline-block;
-  padding: 0.8rem 1.75rem;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
 }
 
 .btn-primary {
-  background-color: #4f46e5;
-  color: #ffffff;
+    background-color: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
 
 .btn-primary:hover {
-  background-color: #4338ca;
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
 }
 
 .btn-secondary {
-  background-color: #f3f4f6;
-  color: #1f2937;
+    background-color: #f1f5f9;
+    color: #334155;
+    border: 1px solid #e2e8f0;
 }
 
 .btn-secondary:hover {
-  background-color: #e5e7eb;
+    background-color: #e2e8f0;
+    color: #0f172a;
 }
 
-/* Trust Badges section */
+/* Footer & Social Proof */
 .social-proof {
-  margin-top: 2rem;
+    margin-top: 40px;
 }
 
 .social-proof p {
-  font-size: 0.875rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #9ca3af;
-  margin-bottom: 0.75rem;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #94a3b8;
+    margin-bottom: 12px;
 }
 
 .logos {
-  display: flex;
-  gap: 2rem;
-  font-weight: 700;
-  color: #cbd5e1;
-  font-size: 1.1rem;
+    display: flex;
+    gap: 24px;
 }
 
-/* Visual Panel Layout & Graphic Elements */
+.company {
+    font-size: 16px;
+    font-weight: 700;
+    color: #cbd5e1;
+}
+
+/* Right Side: Visual Graphic */
 .visual-side {
-  display: none;
-  background-color: #eff6ff;
-  position: relative;
-  overflow: hidden;
+    flex: 1;
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Decorative Geometric Shape */
 .abstract-shape {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  width: 120%;
-  height: 80%;
-  background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);
-  border-radius: 2rem;
-  transform: rotate(-6deg);
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+    width: 60%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(20px);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: morph 10s ease-in-out infinite alternate;
 }
 
-/* Responsive Viewports (Desktop Optimization) */
-@media (min-width: 960px) {
-  .welcome-container {
-    grid-template-columns: 1.1fr 0.9fr;
-  }
+@keyframes morph {
+    0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
+    100% { border-radius: 50% 50% 30% 70% / 50% 60% 40% 60%; }
+}
 
-  .content-side {
-    padding: 4rem 5rem;
-  }
-
-  .hero-text h1 {
-    font-size: 3.5rem;
-  }
-
-  .visual-side {
-    display: block;
-  }
+/* Responsive Design for Mobile Devices */
+@media (max-width: 968px) {
+    .welcome-container {
+        flex-direction: column;
+    }
+    .visual-side {
+        display: none; /* Hide visual pane on small mobile viewports */
+    }
+    .content-side {
+        padding: 40px 24px;
+        min-height: 100vh;
+    }
+    .hero-text h1 {
+        font-size: 32px;
+    }
 }
